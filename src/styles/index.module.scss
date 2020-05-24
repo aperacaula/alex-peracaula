@@ -1,4 +1,35 @@
-.image_container {
-    max-width: 300px;
+@import './variables';
+
+.video_container {
     margin-bottom: 1.45rem;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    opacity: 0;
+}
+
+.video_container.change {
+    opacity: 1;
+    transition: all 1s;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+.loader_container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+.gallery {
+    max-height: 500px;
 }

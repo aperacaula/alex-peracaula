@@ -1,0 +1,53 @@
+@import '../../styles/mixins';
+
+
+.menu_container {
+    display: flex;
+    padding: 0 1.0875rem;
+    .menu_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin-right: 1rem;
+        font-size: 12px;
+    }
+    @include tablet {
+        display: flex;
+        .menu_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            margin-right: 2rem;
+            font-size: 16px;
+        }
+
+    }
+    @include desktop {
+        display: flex;
+        .menu_box {        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: 100%;
+            margin-right: 2rem;
+            font-size: 16px;
+            -webkit-transition: all 0.75s ease-out;
+            -moz-transition: all 0.75s ease-out;
+            transition: all 0.75s ease-out;
+        }
+        div:hover {
+            cursor: pointer;            
+        }
+        .menu_box:hover {
+            transform: scale(1.1);
+        }
+
+    }
+
+}
+

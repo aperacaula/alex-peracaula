@@ -1,18 +1,46 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 header {
-    margin-bottom: 1.45rem;
-
-    div {
-        margin: 0 auto;
+    margin: 0 auto;
         max-width: $centeredMaxWidth;
+        margin-bottom: 1.45rem;
+    display: flex;
+    flex-direction: column;
+    @include desktop {
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .myname_desktop {
         padding: 1.45rem 1.0875rem;
         h1 {
             margin: 0;
+            font-size: 24px;
             a {
                 color: $black;
                 text-decoration: none;
             }
+        }
+        @include mobile {
+            display: none;
+        }
+    }
+    .myname_mobile {
+        padding: 1.45rem 1.0875rem 0;
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            a {
+                color: $black;
+                text-decoration: none;
+            }
+        }
+        @include desktop {
+            display: none;
+        }
+        @include tablet {
+            display: none;
         }
     }
 }
