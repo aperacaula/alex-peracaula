@@ -33,3 +33,12 @@ a {
 .gallery {
     max-height: 500px;
 }
+
+.container_slider {
+    max-width: 1000px;
+    margin-bottom: 40px;
+    align-self: center;
+    @media only screen and (max-width: 600px) {
+     max-height: 300px;
+    }
+  }
