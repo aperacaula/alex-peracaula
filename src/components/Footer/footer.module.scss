@@ -4,7 +4,7 @@ footer {
     margin-top: 1.45rem;
     width: 100%;
     font-size: 12px;
-    div {
+    .first_container {
         margin: 0 auto;
         max-width: $centeredMaxWidth;
         padding: 1.45rem 1.0875rem;
@@ -12,6 +12,35 @@ footer {
         a {
             color: $black;
             text-decoration: none;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logos_container {
+        display: flex;
+        align-items: center;
+        .mail {
+            height: 30px;
+            width: 30px;
+            img {
+                margin-bottom: 0;
+            }
+        }
+        .instagram {
+            height: 28px;
+            width: 28px;
+            img {
+                margin-bottom: 0;
+            }
+            margin-right: 3px;
+        }
+        .linkedin {
+            height: 20px;
+            img {
+                margin-bottom: 0;
+            }
+            width: 20px;
         }
     }
 }
