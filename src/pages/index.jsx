@@ -12,14 +12,15 @@ import ImageGallery from 'react-image-gallery'
 const IndexPage = () => {
   const [videoLoaded, setVideoLoaded] = useState(false)
   const imagesUrls = [
-    { original: 'https://i.ibb.co/rHv7NJ4/alex-book-3.jpg' },
     { original: 'https://i.ibb.co/fD8yKV8/alex-book-1.jpg' },
     { original: 'https://i.ibb.co/SdtQ9cv/alex-book-2.jpg' },
+    { original: 'https://i.ibb.co/rHv7NJ4/alex-book-3.jpg' },
   ]
   
   return (
-  <Layout>
-    <SEO title="Alex Peracaula" />
+  <Layout slide={true} >
+    <SEO title="Home" />
+    <h2>- Reel -</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
           type="Puff"
@@ -38,9 +39,11 @@ const IndexPage = () => {
         className={styles.video_player}
       />
     </div>
-    <Link to="/page-2/">Galería</Link>
-    <div className={styles.container_slider}>
-      <ImageGallery items={imagesUrls} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} autoPlay={true} slideInterval={3500} showNav={true}/>
+    <div className={styles.gallery}>
+      <Link to="/page-2/"><h2>- Galería -</h2></Link>
+      <div className={styles.container_slider}>
+        <ImageGallery items={imagesUrls} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} autoPlay={true} slideInterval={3500} showNav={true}/>
+      </div>
     </div>
   </Layout>
 )}

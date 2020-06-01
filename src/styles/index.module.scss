@@ -1,11 +1,22 @@
 @import './variables';
+@import './mixins';
+
+h2 {
+    // li fotem a tot el que vagi sota h2 un marge 1.45rem
+    margin-bottom: 0;
+}
 
 .video_container {
-    margin-bottom: 1.45rem;
     display: flex;
     justify-content: center;
     width: 95%;
     opacity: 0;
+    @include tablet {
+        margin-top: 1.45rem;
+    }
+    @include desktop {
+        margin-top: 1.45rem;
+    }
 }
 
 .video_container.change {
@@ -31,14 +42,44 @@ a {
 
 
 .gallery {
-    max-height: 500px;
+    h2 {
+        margin-bottom: 1.45rem;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+        margin-top: 50px; 
+    }
+    @include desktop {
+        margin-top: 100px;
+    }
 }
 
 .container_slider {
-    max-width: 1000px;
+    width: 300px;
+    height: 500px;
     margin-bottom: 40px;
     align-self: center;
-    @media only screen and (max-width: 600px) {
-     max-height: 300px;
+    img {
+        min-height: 500px;
+    }
+    @include tablet {
+        width: 600px;
+        height: 600px;
+        margin-bottom: 40px;
+        align-self: center;
+        img {
+            min-height: 600px;
+        }
+    }
+    @include desktop {
+        width: 600px;
+        height: 600px;
+        margin-bottom: 40px;
+        align-self: center;
+        img {
+            min-height: 600px;
+        }
     }
   }

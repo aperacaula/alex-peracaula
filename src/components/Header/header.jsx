@@ -1,22 +1,40 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Slide from 'react-reveal/Slide'
 import styles from './header.module.scss'
 import Menu from '../Menu/menu'
 
-const Header = () => (
+const Header = ({ slide, page }) => (
   <header>
-    <div className={styles.myname_desktop}>
-      <h1>
-        <Link
-          to="/"
-        >
-          <span>Àlex</span><br />
-          <span>Peracaula</span><br />
-          <span>Ruiz</span>
-        </Link>
-      </h1>
-    </div>
+    {slide
+    ?
+      <Slide left>
+      <div className={styles.myname_desktop}>
+        <h1>
+          <Link
+            to="/"
+          >
+            <span>Àlex</span><br />
+            <span>Peracaula</span><br />
+            <span>Ruiz</span>
+          </Link>
+        </h1>
+      </div>
+      </Slide>
+    :
+      <div className={styles.myname_desktop}>
+        <h1>
+          <Link
+            to="/"
+          >
+            <span>Àlex</span><br />
+            <span>Peracaula</span><br />
+            <span>Ruiz</span>
+          </Link>
+        </h1>
+      </div>
+    }
     <div className={styles.myname_mobile}>
       <h1>
         <Link
@@ -26,7 +44,7 @@ const Header = () => (
         </Link>
       </h1>
     </div>
-    <Menu />
+    <Menu slide={slide} page={page}/>
   </header>
 )
 
