@@ -7,7 +7,7 @@ import Slide from "react-reveal/Slide"
 const Menu = ({ lang = 'es', slide, page }) => {
     let galeria = 'Galería';
     let galeriaUrl = '/galeria';
-    let sobreMi = 'Sobre mi';
+    let sobreMi = 'Sobre mí';
     let sobreMiUrl = '/sobre-mi';
     let poesia = 'Poesía';
     let poesiaUrl = '/poesia';

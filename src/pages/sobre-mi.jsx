@@ -1,7 +1,6 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
 import { Link } from "gatsby"
-import Slide from 'react-reveal/Slide'
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import styles from '../styles/sobremi.module.scss'

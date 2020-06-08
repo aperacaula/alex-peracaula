@@ -7,7 +7,7 @@ import Footer from "../Footer/footer"
 import styles from "./poema.module.scss"
 
 const Poema = ({ children, title }) => (
-    <div className={styles.poema_container}>
+    <div className={`${styles.poema_container} ${title === 'Tiaviva' ? styles.tiaviva : ''}`}>
         <h2>{title}</h2>
         <div>{children}</div>
     </div>
