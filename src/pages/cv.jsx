@@ -10,7 +10,7 @@ const CV = (props) => (
     <SEO title="Currículum" />
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
-      <h3>Formación</h3>
+      <h2>Formación</h2>
       <ul>
         <li>
           Formación profesional del actor en Nancy Tuñón, Barcelona, 2016-2019
@@ -31,7 +31,7 @@ const CV = (props) => (
           Modern Jazz 1, Escuela de baile Bailongu, Barcelona 2019
         </li>
       </ul>
-    <h3>Teatro</h3>
+    <h2>Teatro</h2>
       <ul>
         <li>
         "Almost, Maine" dirigida por Pepa Fluvià, Barcelona 2019     
@@ -58,7 +58,7 @@ const CV = (props) => (
         "El Bon Doctor" d'Anton Tchéjov, La Teatral, Barcelona 2010    
         </li>
       </ul>
-    <h3>Cámara</h3>
+    <h2>Cámara</h2>
       <ul>
         <li>
           Videoclip Musical "Tengo Lágrimas", de Alan Neil, 2020
