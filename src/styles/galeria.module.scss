@@ -15,3 +15,12 @@ background-clip: padding-box;
 background: grey;
 margin-bottom: 30px;
 }
+img {
+    -webkit-transition: all 0.75s ease-out;
+    -moz-transition: all 0.75s ease-out;
+    transition: all 0.75s ease-out;
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
