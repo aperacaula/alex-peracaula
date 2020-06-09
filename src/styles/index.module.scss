@@ -1,6 +1,27 @@
 @import './variables';
 @import './mixins';
 
+
+.smaller_h1 {
+    margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  color: inherit;
+  font-family: $font;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 1.38316rem;
+  line-height: 1.1;
+  @include mobile {
+      margin-top: 30px;
+  }
+}
+
 h2 {
     // li fotem a tot el que vagi sota h2 un marge 1.45rem
     margin-bottom: 0;
@@ -16,6 +37,11 @@ h2 {
     }
     @include desktop {
         margin-top: 1.45rem;
+    }
+    div:first-child {
+        @include mobile {
+            max-height: 30vh !important;
+        }
     }
 }
 
@@ -59,6 +85,12 @@ a {
     }
     @include desktop {
         margin-top: 100px;
+    }
+    @include mobile {
+        margin-top: 25px;
+        img {
+            max-height: 40vh;
+        }
     }
 }
 
