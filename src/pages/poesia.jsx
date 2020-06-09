@@ -6,7 +6,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Poema from "../components/Poema/poema";
 
-const SecondPage = (props) => (
+const Poesia = (props) => (
   <Layout page={'poesia'}>
     <SEO title="Poesía" />
     <h1>Poemas</h1>
@@ -458,4 +458,4 @@ const SecondPage = (props) => (
   </Layout>
 )
 
-export default SecondPage
+export default Poesia

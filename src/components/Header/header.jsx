@@ -11,7 +11,6 @@ const Header = ({ slide, page }) => (
     ?
       <Slide left>
       <div className={styles.myname_desktop}>
-        <h1>
           <Link
             to="/"
           >
@@ -19,12 +18,10 @@ const Header = ({ slide, page }) => (
             <span>Peracaula</span><br />
             <span>Ruiz</span>
           </Link>
-        </h1>
       </div>
       </Slide>
     :
       <div className={styles.myname_desktop}>
-        <h1>
           <Link
             to="/"
           >
@@ -32,7 +29,6 @@ const Header = ({ slide, page }) => (
             <span>Peracaula</span><br />
             <span>Ruiz</span>
           </Link>
-        </h1>
       </div>
     }
     <div className={styles.myname_mobile}>

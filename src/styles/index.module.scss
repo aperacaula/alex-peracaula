@@ -43,7 +43,13 @@ a {
 
 .gallery {
     h2 {
+        margin-bottom: 0;
+    }
+    p {
         margin-bottom: 1.45rem;
+    }
+    p:hover {
+        text-decoration: underline;
     }
     display: flex;
     flex-direction: column;

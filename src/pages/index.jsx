@@ -15,12 +15,17 @@ const IndexPage = () => {
     { original: 'https://i.ibb.co/fD8yKV8/alex-book-1.jpg' },
     { original: 'https://i.ibb.co/SdtQ9cv/alex-book-2.jpg' },
     { original: 'https://i.ibb.co/rHv7NJ4/alex-book-3.jpg' },
+    { original: 'https://i.ibb.co/k0X7hJk/IMG-5029.jpg'},
+    { original: 'https://i.ibb.co/KD37x8x/IMG-5067.jpg'},
+    { original: 'https://i.ibb.co/rGZdGHf/IMG-5030.jpg'},
+    { original: 'https://i.ibb.co/3c8qfjR/IMG-2861.jpg'},
+    { original: 'https://i.ibb.co/R4QbH2C/IMG-2889.png'},
   ]
   
   return (
   <Layout slide={true} >
     <SEO title="Home" />
-    <h2>- Reel -</h2>
+    <h1>Videobook</h1>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
           type="Puff"
@@ -40,7 +45,8 @@ const IndexPage = () => {
       />
     </div>
     <div className={styles.gallery}>
-      <Link to="/page-2/"><h2>- Galería -</h2></Link>
+      <Link to="/galeria"><h2>Galería</h2></Link>
+      <Link to="/galeria"><p>(Ver más)</p></Link>
       <div className={styles.container_slider}>
         <ImageGallery items={imagesUrls} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} autoPlay={true} slideInterval={3500} showNav={true}/>
       </div>

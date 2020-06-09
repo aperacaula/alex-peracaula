@@ -46,17 +46,17 @@ const imagesUrls = [
   { original: 'https://i.ibb.co/CmkPBjy/IMG-5008.jpg'},
   { original: 'https://i.ibb.co/TgXVYZq/darks1.jpg'},  
   { original: 'https://i.ibb.co/Gt328Ch/IMG-5010.jpg'},
-  { original: 'https://i.ibb.co/rF6jryv/IMG-5004.jpg'},
   { original: 'https://i.ibb.co/6Xy4QpV/peracahula4391final-compressor.jpg'},
+  { original: 'https://i.ibb.co/rF6jryv/IMG-5004.jpg'},
   { original: 'https://i.ibb.co/z2kLfGy/IMG-5064.jpg'},
   { original: 'https://i.ibb.co/87H6sZ8/IMG-5077.jpg'},
   { original: 'https://i.ibb.co/vmmq3Z3/peracahula4190fetabw.jpg'},
 ]
 
-const SecondPage = (props) => (
+const Galeria = (props) => (
   <Layout page={'galeria'}>
     <SEO title="Galería" />
-    <h1>Galería de imágenes</h1>
+    <h1>Galería de fotografías</h1>
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className={styles.my_masonry_grid}
@@ -66,8 +66,7 @@ const SecondPage = (props) => (
         <img alt="" src={url.original} />
       ))}
     </Masonry>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SecondPage
+export default Galeria

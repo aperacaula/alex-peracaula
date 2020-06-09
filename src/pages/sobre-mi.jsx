@@ -5,7 +5,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import styles from '../styles/sobremi.module.scss'
 
-const SecondPage = (props) => (
+const SobreMi = (props) => (
   <Layout page={'sobremi'} >
     <SEO title="Sobre mí" />
     <h1>Sobre mí</h1>
@@ -46,4 +46,4 @@ const SecondPage = (props) => (
   </Layout>
 )
 
-export default SecondPage
+export default SobreMi

@@ -7,7 +7,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import styles from '../styles/contact.module.scss'
 
-const SecondPage = (props) => {
+const Contacto = (props) => {
   const icons = useStaticQuery(graphql`
     query {
       instagram: file(relativePath: { eq: "instagram-icon.png" }) {
@@ -48,4 +48,4 @@ const SecondPage = (props) => {
   )
 }
 
-export default SecondPage
+export default Contacto
