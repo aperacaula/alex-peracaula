@@ -17,7 +17,7 @@ const imagesUrls = [
   { original: 'https://i.ibb.co/fD8yKV8/alex-book-1.jpg' },
   { original: 'https://i.ibb.co/SdtQ9cv/alex-book-2.jpg' },
   { original: 'https://i.ibb.co/rHv7NJ4/alex-book-3.jpg' },
-  { original: 'https://i.ibb.co/GtGZywT/IMG-5029-2.jpg'},
+  { original: 'https://i.ibb.co/k0X7hJk/IMG-5029.jpg'},
   { original: 'https://i.ibb.co/rGZdGHf/IMG-5030.jpg'},
   { original: 'https://i.ibb.co/KD37x8x/IMG-5067.jpg'},
   { original: 'https://i.ibb.co/3c8qfjR/IMG-2861.jpg'},
