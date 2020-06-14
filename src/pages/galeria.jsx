@@ -87,6 +87,8 @@ const Galeria = (props) => {
       >
         <img className={styles.img} alt="" src={clickedUrl} />
       </Dialog>
+      <Link to="/">- Volver al inicio -</Link>
+      
     </Layout>
 )}
 

@@ -454,7 +454,9 @@ const Poesia = (props) => (
     en tu madera cuando yo te balancee<br />
     mientras lo haga, consciente de que el ahora ya está.<br />
     </Poema>
-
+    <br/>
+    <br />
+    <Link to="/">- Volver al inicio -</Link>    
   </Layout>
 )
 
