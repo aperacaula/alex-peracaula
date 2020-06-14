@@ -1,10 +1,11 @@
 // Gatsby supports TypeScript natively!
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import styles from "../styles/galeria.module.scss"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Masonry from "react-masonry-css"
+import Dialog from '@material-ui/core/Dialog';
 
 const breakpointColumnsObj = {
   default: 4,
@@ -53,20 +54,40 @@ const imagesUrls = [
   { original: 'https://i.ibb.co/vmmq3Z3/peracahula4190fetabw.jpg'},
 ]
 
-const Galeria = (props) => (
-  <Layout page={'galeria'}>
-    <SEO title="Galería" />
-    <h1>Galería de fotografías</h1>
-    <Masonry
-      breakpointCols={breakpointColumnsObj}
-      className={styles.my_masonry_grid}
-      columnClassName={styles.my_masonry_grid_column}
-    >
-      {imagesUrls.map((url) => (
-        <img alt="" src={url.original} />
-      ))}
-    </Masonry>
-  </Layout>
-)
+const Galeria = (props) => {
+  const [visible, setVisible] = useState(false);
+  const [clickedUrl, setClickedUrl] = useState('');
+
+  const onClose = () => {
+    setVisible(false)
+    setClickedUrl('')
+  }
+  const onOpen = (url) => {
+    setVisible(true)
+    setClickedUrl(url)
+  }
+  return (
+    <Layout page={'galeria'}>
+      <SEO title="Galería" />
+      <h1>Galería de fotografías</h1>
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className={styles.my_masonry_grid}
+        columnClassName={styles.my_masonry_grid_column}
+      >
+        {imagesUrls.map((url) => (
+          <img alt="" src={url.original} onClick={() => onOpen(url.original)}/>
+        ))}
+      </Masonry>
+      <Dialog
+        open={visible}
+        onClose={onClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <img className={styles.img} alt="" src={clickedUrl} />
+      </Dialog>
+    </Layout>
+)}
 
 export default Galeria
