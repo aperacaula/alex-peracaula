@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './menu.module.scss'
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import Slide from "react-reveal/Slide"
 
 
-const Menu = ({ lang = 'es', slide, page }) => {
+const Menu = ({ lan = 'es', slide, page }) => {
     let galeria = 'Galería';
     let galeriaUrl = '/galeria';
     let sobreMi = 'Sobre mí';
@@ -18,7 +18,7 @@ const Menu = ({ lang = 'es', slide, page }) => {
     let videos = 'Vídeos';
     let videosUrl = '/videos';
 
-    switch (lang) {
+    switch (lan) {
         case 'en':
             galeria = 'Photos';
             galeriaUrl = '/en/photos';
@@ -88,6 +88,19 @@ const Menu = ({ lang = 'es', slide, page }) => {
                         }
                     </div>
                 </Link>
+                <div className={styles.menu_box}>
+                    <select
+                        value={lan !== 'es' ? `/${lan}` : '/'}
+                        onChange={(e) => navigate(e.target.value)}
+                    >
+                        <option value="/">
+                            ES
+                        </option>
+                        <option value="/en">
+                            EN
+                        </option>
+                    </select>
+                </div>
             </div>
         )
     }
@@ -124,6 +137,19 @@ const Menu = ({ lang = 'es', slide, page }) => {
                     <span>{contacto}</span>
                 </div>
                 </Link>
+                <div className={styles.menu_box}>
+                    <select
+                            value={lan !== 'es' ? `/${lan}` : '/'}
+                            onChange={(e) => navigate(e.target.value)}
+                    >
+                        <option value="/">
+                            ES
+                        </option>
+                        <option value="/en">
+                            EN
+                        </option>
+                    </select>
+                </div>
             </Slide>
         </div>
     )

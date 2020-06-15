@@ -13,9 +13,9 @@ const SobreMi = (props) => (
      donde actualmente resido. Mi pasión por la interpretación empezó muy temprano.
      Por influencia mayormente de mi abuelo, empecé a hacer teatro en la escuela y 
      en el grupo de teatro amateur "La Teatral", perteneciente a "La Caixa", donde
-     fui acumulando experiencia con papeles cada vez más complejos.</p>
+     fui acumulando experiencia con papeles cada vez más elaborados.</p>
  
-     <p>Manteniendo el teatro como un hobbie, aunque necesario, estudié Ingeniería Industrial
+     <p>Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
        en la Universitat Politècnica de Catalunya y acabé la carrera en Irvine, California,
        donde podían convivir diariamente mis estudios con mi pasión por el surf. Tras volver a Europa,
        completé un Máster en Ingeniería en Energías Renovables en Lisboa, donde viví

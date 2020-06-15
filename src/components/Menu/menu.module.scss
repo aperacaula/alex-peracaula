@@ -39,6 +39,9 @@
             -webkit-transition: all 0.75s ease-out;
             -moz-transition: all 0.75s ease-out;
             transition: all 0.75s ease-out;
+            select {
+                border: none;
+            }
         }
         div:hover {
             cursor: pointer;            

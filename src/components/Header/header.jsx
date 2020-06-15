@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide'
 import styles from './header.module.scss'
 import Menu from '../Menu/menu'
 
-const Header = ({ slide, page }) => (
+const Header = ({ slide, page, lan }) => (
   <header>
     {slide
     ?
@@ -38,7 +38,7 @@ const Header = ({ slide, page }) => (
         <span>Àlex Peracaula Ruiz</span>
       </Link>
     </div>
-    <Menu slide={slide} page={page}/>
+    <Menu slide={slide} page={page} lan={lan}/>
   </header>
 )
 

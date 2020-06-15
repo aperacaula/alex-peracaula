@@ -6,7 +6,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 
 const CV = (props) => (
-  <Layout>
+  <Layout page={'cv'}>
     <SEO title="Currículum" />
     <h1>Currículum</h1>
     <div className={styles.cv_container}>

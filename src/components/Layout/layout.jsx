@@ -12,7 +12,7 @@ import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import styles from "./layout.module.scss"
 
-const Layout = ({ children, page = 'home', slide = false }) => {
+const Layout = ({ children, page = 'home', slide = false, lan = 'es' }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,7 +25,7 @@ const Layout = ({ children, page = 'home', slide = false }) => {
 
   return (
     <>
-      <Header siteTitle='Alex Peracaula Ruiz' slide={slide} page={page} />
+      <Header siteTitle='Alex Peracaula Ruiz' slide={slide} page={page} lan={lan} />
         <main>{children}</main>
       <Footer />
     </>
