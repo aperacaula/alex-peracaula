@@ -10,8 +10,11 @@
         align-items: center;
         width: auto;
         height: auto;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
         font-size: 12px;
+        select {
+            border: none;
+        }
     }
     @include tablet {
         display: flex;
@@ -23,6 +26,9 @@
             height: auto;
             margin-right: 2rem;
             font-size: 16px;
+            select {
+                border: none;
+            }
         }
 
     }
