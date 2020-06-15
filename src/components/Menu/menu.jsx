@@ -105,7 +105,7 @@ const Menu = ({ lan = 'es', slide, page }) => {
                 <div className={styles.menu_box}>
                     <select
                         value={lan !== 'es' ? `/${lan}` : '/'}
-                        onBlur={(e) => navigate(e.target.value)}
+                        onChange={(e) => navigate(e.target.value)}
                     >
                         <option value="/">
                             ES
@@ -157,7 +157,7 @@ const Menu = ({ lan = 'es', slide, page }) => {
                 <div className={styles.menu_box}>
                     <select
                             value={lan !== 'es' ? `/${lan}` : '/'}
-                            onBlur={(e) => navigate(e.target.value)}
+                            onChange={(e) => navigate(e.target.value)}
                     >
                         <option value="/">
                             ES
