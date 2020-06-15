@@ -27,21 +27,20 @@ const SobreMi = (props) => (
        a perseguir el meu somni sempre present de ser actor.</p>
 
      <p>Amb aquesta intenció vaig tornar a Barcelona al 2017 per tal de cursar la Formació professional
-       de l'actor a l' Estudi Nancy Tuñón-Jordi Oliver, donde he adquirido nuevos conocimientos
-       tanto sobre mis mecanismos emocionales como actor, como sobre técnicas
-       necesarias para la interpretación. Mis ganas y voluntad de actuar me han llevado a complementar
-       esta formación con otra que considero más personal y que pasa por consumir teatro, cine,
-       leer, escribir, participar en cortometrajes, obras de creación colectiva, cursos
-       complementarios y, en definitiva, preocuparme por crecer como artista día a día.
-       </p>
+       de l'actor a l'Estudi Nancy Tuñón-Jordi Oliver, on he pogut aprofundir en l'art més enllà de la practicitat
+       amb la que m'havia format fins ara, aprenent sobre els meus mecanismes emocionals com actor i treballar les tècniques de cos i veu.
+       Les meves ganes i voluntat d'interpretar m'han portat a complementar aquesta formació amb una altra
+       que considero més personal i que passa per consumir teatre, cinema, llegir, escriure,
+       participar en curtmetratges, obres de creació col.lectiva, cursos complementaris i, en definitiva,
+       preocupar-me per créixer com a artista dia rere dia.</p>
      
-      <p>El deporte siempre ha estado presente durante mi vida, y el surf y el tenis son
-        mis dos prácticas favoritas. También escribo poemas, que podéis ver en la sección de
-        la web correspondiente, y actualmente llevo dos años trabajando como desarrollador
-        web de forma paralela a la formación teatral.</p>
+      <p>Paral.lelament l'esport sempre ha estat present a la meva vida, sent el surf el meu
+        esport preferit i el tennis el que fa més temps que practico. També escric poesia, que 
+        es pot llegir a la secció web corresponent i actualment complemento amb la interpretació
+        la professió de desenvolupador web, que practico des de fa dos anys.</p>
 
 
-    <Link to="/">- Volver al inicio -</Link>
+    <Link to="/ca">- Tornar a l'inici -</Link>
   </Layout>
 )
 
