@@ -5,6 +5,8 @@ import styles from "../styles/videos.module.scss"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import YouTube from 'react-youtube';
+import Loader from "react-loader-spinner"
+
 
 const videosUrls = [
   'https://youtu.be/w0NcyiahpzI',
@@ -29,7 +31,7 @@ const videosIds = [
 ]
 
 const Videos = (props) => {
-
+  const [videoLoaded, setVideoLoaded] = useState(false)
   const optsDesktop = {
     height: '390',
     width: '640',
@@ -52,10 +54,20 @@ const Videos = (props) => {
     <Layout page={'videos'}>
       <SEO title="Videos" />
       <h1>Vídeos parodia</h1>
+      <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
+        <Loader
+          type="Puff"
+          color="black"
+          height={100}
+          width={100}
+          timeout={3000} //3 secs
+          className={videoLoaded ? styles.hide : ''}
+        />
+      </div>
       {videosIds.map(id => (
         <>
-          <YouTube videoId={id} opts={optsDesktop} className={styles.desktop}/>
-          <YouTube videoId={id} opts={optsMobile} className={styles.mobile}/>
+          <YouTube videoId={id} opts={optsDesktop} className={styles.desktop} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={id} opts={optsMobile} className={styles.mobile} onReady={() => setVideoLoaded(true)}/>
         </>
       ))}
       <Link to="/">- Volver al inicio -</Link>

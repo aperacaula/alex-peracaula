@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout/layout"
-import Image from "../components/Image/image"
 import SEO from "../components/seo"
 import styles from "../styles/index.module.scss"
 import ReactPlayer from "react-player"
