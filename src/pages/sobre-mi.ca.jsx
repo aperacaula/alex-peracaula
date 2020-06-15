@@ -17,21 +17,17 @@ const SobreMi = (props) => (
  
      <p>Mantenint el teatre com un hobbie necessari, vaig estudiar Enginyeria Industrial a l'
        UPC de Barcelona i vaig acabar la carrera a l'University of California Irvine, California,
-       on podia compaginar diàriament els meus estudis amb la meva passió pel surf. Després <del>to</del>
-       Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
-       en la Universitat Politècnica de Catalunya y acabé la carrera en Irvine, California,
-       donde podían convivir diariamente mis estudios con mi pasión por el surf. Tras volver a Europa,
-       completé un Máster en Ingeniería en Energías Renovables en Lisboa, donde viví
-       un año lleno de emociones. Allí fue donde me uní al grupo de teatro <a href="http://www.lisbonplayers.com.pt/site/">"The Lisbon Players"</a>,
-       el grupo de teatro en inglés con más trayectoria de Portugal. Protagonizando dos
-       de sus producciones, una obra original "The Stone Flower" y una producción de 
-       "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes dialectos ingleses
-       y aplicar el conocimiento profesional que tenía del idioma encima de 
-       las tablas. Esta experiencia me alentó a perseguir mi sueño, siempre presente, de ser actor.
-     </p>
+       on podia compaginar diàriament els meus estudis amb la meva passió pel surf. Després de tornar
+       a Europa, vaig completar un Màster en Energies Renovables a Lisboa, on vaig viure un any ple d'emocions i
+       descobriments. Allà em vaig unir al grup de teatre <a href="http://www.lisbonplayers.com.pt/site/">"The Lisbon Players"</a>,
+       el grup de teatre en anglès amb més trajectòria de Portugal. Protagonitzant dos dels seus espectacles,
+       'The Stone Flower', una obra original d'Elettra Sachi i 'Much Ado About Nothing' de Shakespeare, 
+       vaig poder treballar l'anglès de diferents formes sobre l'escenari i vaig poder ampliar la dominancia
+       sobre l'idioma que havia adquirit en l'àmbit professional. Aquesta experiència em va encoratjar
+       a perseguir el meu somni sempre present de ser actor.</p>
 
-     <p>Por ello, volví a Barcelona en 2017, donde cursé la Formación Profesional 
-       del Actor en el Estudi Nancy Tuñón-Jordi Oliver, donde he adquirido nuevos conocimientos
+     <p>Amb aquesta intenció vaig tornar a Barcelona al 2017 per tal de cursar la Formació professional
+       de l'actor a l' Estudi Nancy Tuñón-Jordi Oliver, donde he adquirido nuevos conocimientos
        tanto sobre mis mecanismos emocionales como actor, como sobre técnicas
        necesarias para la interpretación. Mis ganas y voluntad de actuar me han llevado a complementar
        esta formación con otra que considero más personal y que pasa por consumir teatro, cine,

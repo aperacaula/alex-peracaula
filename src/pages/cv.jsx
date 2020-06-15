@@ -22,7 +22,7 @@ const CV = (props) => (
           Curso de casting impartido por Pep Armengol, 2019
         </li>
         <li>
-          Canto, clases impartidas por Martina Tresserra, 2017- presente
+          Canto, clases impartidas por Martina Tresserra, 2017-2018
         </li>
         <li>
           Curso de creación teatral por Bárbara Mestanza (The Mamzelles), 2018

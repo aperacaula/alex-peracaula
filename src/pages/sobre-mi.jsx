@@ -21,7 +21,7 @@ const SobreMi = (props) => (
        completé un Máster en Ingeniería en Energías Renovables en Lisboa, donde viví
        un año lleno de emociones. Allí fue donde me uní al grupo de teatro <a href="http://www.lisbonplayers.com.pt/site/">"The Lisbon Players"</a>,
        el grupo de teatro en inglés con más trayectoria de Portugal. Protagonizando dos
-       de sus producciones, una obra original "The Stone Flower" y una producción de 
+       de sus espectaculos, una obra original de Elettra Sachi, "The Stone Flower" y una producción de 
        "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes dialectos ingleses
        y aplicar el conocimiento profesional que tenía del idioma encima de 
        las tablas. Esta experiencia me alentó a perseguir mi sueño, siempre presente, de ser actor.
@@ -36,10 +36,10 @@ const SobreMi = (props) => (
        complementarios y, en definitiva, preocuparme por crecer como artista día a día.
        </p>
      
-      <p>El deporte siempre ha estado presente durante mi vida, y el surf y el tenis son
-        mis dos prácticas favoritas. También escribo poemas, que podéis ver en la sección de
-        la web correspondiente, y actualmente llevo dos años trabajando como desarrollador
-        web de forma paralela a la formación teatral.</p>
+      <p>En paralelo, el deporte siempre ha estado presente durante mi vida, siendo el surf
+        mi deporte favorito y el tenis el deporte que siempre he practicado. Como otras aficiones, también escribo poemas, que podéis ver en la sección de
+        la web correspondiente, y como profesión paralela llevo dos años trabajando como desarrollador
+        web coexistiendo con la formación teatral.</p>
 
 
     <Link to="/">- Volver al inicio -</Link>
