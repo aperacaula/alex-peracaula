@@ -16,7 +16,8 @@ const SobreMi = (props) => (
       cada vegada enfrentant-me a personatges més interessants.</p>
  
      <p>Mantenint el teatre com un hobbie necessari, vaig estudiar Enginyeria Industrial a l'
-       UPC de Barcelona i vaig acabar la carrera a l'Un
+       UPC de Barcelona i vaig acabar la carrera a l'University of California Irvine, California,
+       on podia compaginar diàriament els meus estudis amb la meva passió pel surf. Després <del>to</del>
        Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
        en la Universitat Politècnica de Catalunya y acabé la carrera en Irvine, California,
        donde podían convivir diariamente mis estudios con mi pasión por el surf. Tras volver a Europa,
