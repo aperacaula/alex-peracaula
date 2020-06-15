@@ -101,6 +101,7 @@ a {
     align-self: center;
     img {
         min-height: 500px;
+        max-height: calc(100vh - 300px);
     }
     @include tablet {
         width: 600px;
@@ -118,6 +119,7 @@ a {
         align-self: center;
         img {
             min-height: 600px;
+            max-height: calc(100vh - 300px) !important;
         }
     }
   }

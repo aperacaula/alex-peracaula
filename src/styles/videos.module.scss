@@ -1,0 +1,17 @@
+@import './variables';
+@import './mixins';
+
+.desktop {
+    @include mobile {
+        display: none;
+    }
+}
+
+.mobile {
+    @include tablet {
+        display: none;
+    }
+    @include desktop {
+        display: none;
+    }
+}

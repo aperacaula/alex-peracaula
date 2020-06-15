@@ -15,6 +15,8 @@ const Menu = ({ lang = 'es', slide, page }) => {
     let cvUrl = '/cv';
     let contacto = 'Contacto';
     let contactoUrl = '/contacto';
+    let videos = 'Vídeos';
+    let videosUrl = '/videos';
 
     switch (lang) {
         case 'en':
@@ -28,6 +30,8 @@ const Menu = ({ lang = 'es', slide, page }) => {
             cvUrl = '/en/cv';
             contacto = 'Contact';
             contactoUrl = '/en/contact';
+            videos = 'Videos';
+            videosUrl = '/en/videos';
             break
         default:
             break
@@ -41,6 +45,14 @@ const Menu = ({ lang = 'es', slide, page }) => {
                         {page === 'galeria'
                             ? <span><strong>{galeria}</strong></span>
                             : <span>{galeria}</span>
+                        }
+                    </div>
+                </Link>
+                <Link to={videosUrl}>
+                    <div className={styles.menu_box}>
+                        {page === 'videos'
+                            ? <span><strong>{videos}</strong></span>
+                            : <span>{videos}</span>
                         }
                     </div>
                 </Link>
@@ -85,6 +97,11 @@ const Menu = ({ lang = 'es', slide, page }) => {
                 <Link to={galeriaUrl}>
                     <div className={styles.menu_box}>
                         <span>{galeria}</span>
+                    </div>
+                </Link>
+                <Link to={videosUrl}>
+                    <div className={styles.menu_box}>
+                        <span>{videos}</span>
                     </div>
                 </Link>
                 <Link to={sobreMiUrl}>
