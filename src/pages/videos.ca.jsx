@@ -52,7 +52,7 @@ const Videos = (props) => {
 
   return (
     <Layout page={'videos'} lan={'ca'}>
-      <SEO title="Vídeos" />
+      <SEO title="Vídeos" lang="ca" description="Videos parodia de El Ultimo Superviviente, Alex Peracaula"/>
       <h1>Vídeos parodia</h1>
       <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
         <Loader

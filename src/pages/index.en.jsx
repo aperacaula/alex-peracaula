@@ -23,7 +23,7 @@ const IndexPage = () => {
   
   return (
   <Layout slide={true} lan={'en'}>
-    <SEO title="Home" />
+    <SEO title="Home" lang="en" description="Alex Peracaula acting website"/>
     <h1 className={styles.smaller_h1}>Reel</h1>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader

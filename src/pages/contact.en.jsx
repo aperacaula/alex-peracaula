@@ -1,6 +1,5 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
-import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/Layout/layout"
@@ -28,7 +27,7 @@ const Contacto = (props) => {
   `)
   return (
     <Layout page={'contacto'} lan={'en'}>
-      <SEO title="Contact" />
+      <SEO title="Contact" lang="en"/>
       <h1>Contact me</h1>
       <div className={styles.contact_content}>
         <div className={styles.contact_section}>

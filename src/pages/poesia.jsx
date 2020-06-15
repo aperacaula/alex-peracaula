@@ -8,7 +8,7 @@ import Poema from "../components/Poema/poema";
 
 const Poesia = (props) => (
   <Layout page={'poesia'}>
-    <SEO title="Poesía" />
+    <SEO title="Poesía" lang="es" description="Blog de poesía de Alex Peracaula"/>
     <h1>Poemas</h1>
     <Poema title="No ta g a">
       En las lágrimas de alguien<br/>

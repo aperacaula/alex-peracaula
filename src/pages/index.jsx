@@ -23,7 +23,7 @@ const IndexPage = () => {
   
   return (
   <Layout slide={true} >
-    <SEO title="Home" />
+    <SEO title="Home" lang="es" description="Página web de Alex Peracaula, actor"/>
     <h1 className={styles.smaller_h1}>Videobook</h1>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader

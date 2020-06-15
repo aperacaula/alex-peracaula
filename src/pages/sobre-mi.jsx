@@ -7,7 +7,7 @@ import styles from '../styles/sobremi.module.scss'
 
 const SobreMi = (props) => (
   <Layout page={'sobremi'} >
-    <SEO title="Sobre mí" />
+    <SEO title="Sobre mí" lang="es" description="Algo de información sobre mi, Alex Peracaula"/>
     <h1>Sobre mí</h1>
     <p>Me llamo Àlex Peracaula Ruiz, y nací el 7 de octubre de 1993 en Barcelona. 
       Mi pasión por la interpretación empezó muy temprano.
@@ -22,7 +22,7 @@ const SobreMi = (props) => (
        un año lleno de emociones. Allí fue donde me uní al grupo de teatro <a href="http://www.lisbonplayers.com.pt/site/">"The Lisbon Players"</a>,
        el grupo de teatro en inglés con más trayectoria de Portugal. Protagonizando dos
        de sus espectaculos, una obra original de Elettra Sachi, "The Stone Flower" y una producción de 
-       "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes dialectos ingleses
+       "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes acentos ingleses
        y aplicar el conocimiento profesional que tenía del idioma encima de 
        las tablas. Esta experiencia me alentó a perseguir mi sueño, siempre presente, de ser actor.
      </p>

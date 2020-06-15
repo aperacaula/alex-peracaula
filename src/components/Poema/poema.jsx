@@ -1,9 +1,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Header from "../Header/header"
-import Footer from "../Footer/footer"
 import styles from "./poema.module.scss"
 
 const Poema = ({ children, title }) => (

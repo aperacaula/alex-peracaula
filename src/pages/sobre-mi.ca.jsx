@@ -7,7 +7,7 @@ import styles from '../styles/sobremi.module.scss'
 
 const SobreMi = (props) => (
   <Layout page={'sobremi'} >
-    <SEO title="Sobre mí" />
+    <SEO title="Sobre mí" lang="ca"/>
     <h1>Sobre mí</h1>
     <p>Em dic Àlex Peracaula Ruiz, i vaig néixer el 7 de octubre de 1993 en Barcelona.
       La meva passió pel teatre va començar ben d'hora. Per influència majoritàriament

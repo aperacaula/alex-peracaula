@@ -10,18 +10,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
-import styles from "./layout.module.scss"
 
 const Layout = ({ children, page = 'home', slide = false, lan = 'es' }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
     <>

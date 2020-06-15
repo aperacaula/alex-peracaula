@@ -49,7 +49,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `actor`,
+        },
+        {
+          property: `og:image`,
+          content: `https://i.ibb.co/rHv7NJ4/alex-book-3.jpg`,
         },
         {
           name: `twitter:card`,

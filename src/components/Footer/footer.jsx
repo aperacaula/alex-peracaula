@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './footer.module.scss';
-import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
