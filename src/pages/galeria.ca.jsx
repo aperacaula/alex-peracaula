@@ -67,9 +67,9 @@ const Galeria = (props) => {
     setClickedUrl(url)
   }
   return (
-    <Layout page={'galeria'} lan={'en'}>
-      <SEO title="Photos" />
-      <h1>Pictures gallery</h1>
+    <Layout page={'galeria'} lan='ca'>
+      <SEO title="Galeria" />
+      <h1>Galeria d'imatges</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className={styles.my_masonry_grid}
@@ -87,7 +87,7 @@ const Galeria = (props) => {
       >
         <img className={styles.img} alt="" src={clickedUrl} />
       </Dialog>
-      <Link to="/en">- Back to Home -</Link>
+      <Link to="/ca">- Tornar a l'inici -</Link>
       
     </Layout>
 )}

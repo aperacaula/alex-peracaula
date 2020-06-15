@@ -9,13 +9,15 @@ const SobreMi = (props) => (
   <Layout page={'sobremi'} >
     <SEO title="Sobre mí" />
     <h1>Sobre mí</h1>
-    <p>Me llamo Àlex Peracaula Ruiz, y nací el 7 de octubre de 1993 en Barcelona. 
-      Mi pasión por la interpretación empezó muy temprano.
-     Por influencia mayormente de mi abuelo, empecé a hacer teatro en la escuela y 
-     en el grupo de teatro amateur "La Teatral", perteneciente a "La Caixa", donde
-     fui acumulando experiencia con papeles cada vez más elaborados.</p>
+    <p>Em dic Àlex Peracaula Ruiz, i vaig néixer el 7 de octubre de 1993 en Barcelona.
+      La meva passió pel teatre va començar ben d'hora. Per influència majoritàriament
+      del meu avi, vaig començar a fer teatre a l'escola i al grup de teatre 'La Teatral',
+      pertanyent a 'La Caixa'. Allà vaig començar a aprendre a actuar des de la pràctica, 
+      cada vegada enfrentant-me a personatges més interessants.</p>
  
-     <p>Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
+     <p>Mantenint el teatre com un hobbie necessari, vaig estudiar Enginyeria Industrial a l'
+       UPC de Barcelona i vaig acabar la carrera a l'Un
+       Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
        en la Universitat Politècnica de Catalunya y acabé la carrera en Irvine, California,
        donde podían convivir diariamente mis estudios con mi pasión por el surf. Tras volver a Europa,
        completé un Máster en Ingeniería en Energías Renovables en Lisboa, donde viví

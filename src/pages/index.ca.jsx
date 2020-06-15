@@ -22,9 +22,9 @@ const IndexPage = () => {
   ]
   
   return (
-  <Layout slide={true} lan={'en'}>
+  <Layout slide={true} lan={'ca'} >
     <SEO title="Home" />
-    <h1 className={styles.smaller_h1}>Reel</h1>
+    <h1 className={styles.smaller_h1}>Videobook</h1>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
           type="Puff"
@@ -44,8 +44,8 @@ const IndexPage = () => {
       />
     </div>
     <div className={styles.gallery}>
-      <Link to="/en/photos"><h2>Gallery</h2></Link>
-      <Link to="/en/photos"><p>(See more)</p></Link>
+      <Link to="/ca/galeria"><h2>Galeria</h2></Link>
+      <Link to="/ca/galeria"><p>(Veure més)</p></Link>
       <div className={styles.container_slider}>
         <ImageGallery items={imagesUrls} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} autoPlay={false} slideInterval={3500} showNav={true}/>
       </div>

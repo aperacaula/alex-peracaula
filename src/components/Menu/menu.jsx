@@ -33,6 +33,20 @@ const Menu = ({ lan = 'es', slide, page }) => {
             videos = 'Videos';
             videosUrl = '/en/videos';
             break
+        case 'ca':
+            galeria = 'Galeria';
+            galeriaUrl = '/ca/galeria';
+            sobreMi = 'Sobre mí';
+            sobreMiUrl = '/ca/sobre-mi';
+            poesia = 'Poesia';
+            poesiaUrl = '/ca/poesia';
+            cv = 'Currículum';
+            cvUrl = '/ca/cv';
+            contacto = 'Contacte';
+            contactoUrl = '/ca/contacte';
+            videos = 'Videos';
+            videosUrl = '/ca/videos';
+            break
         default:
             break
     }
@@ -96,6 +110,9 @@ const Menu = ({ lan = 'es', slide, page }) => {
                         <option value="/">
                             ES
                         </option>
+                        <option value="/ca">
+                            CA
+                        </option>
                         <option value="/en">
                             EN
                         </option>
@@ -144,6 +161,9 @@ const Menu = ({ lan = 'es', slide, page }) => {
                     >
                         <option value="/">
                             ES
+                        </option>
+                        <option value="/ca">
+                            CA
                         </option>
                         <option value="/en">
                             EN
