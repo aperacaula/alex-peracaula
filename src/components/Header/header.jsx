@@ -32,13 +32,11 @@ const Header = ({ slide, page }) => (
       </div>
     }
     <div className={styles.myname_mobile}>
-      <h1>
-        <Link
-          to="/"
-        >
-          <span>Àlex Peracaula Ruiz</span>
-        </Link>
-      </h1>
+      <Link
+        to="/"
+      >
+        <span>Àlex Peracaula Ruiz</span>
+      </Link>
     </div>
     <Menu slide={slide} page={page}/>
   </header>
