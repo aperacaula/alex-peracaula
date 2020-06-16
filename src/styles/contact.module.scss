@@ -4,6 +4,9 @@
 .contact_content {
     display: flex;
     flex-direction: column;
+    @include mobile {
+        margin-top: 50px;
+    }
 }
 .contact_section {
     height: 50px;

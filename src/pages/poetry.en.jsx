@@ -10,7 +10,7 @@ const Poesia = (props) => (
   <Layout page={'poesia'} lan={'en'}>
     <SEO title="Poesía" lang="en" description="Poetry gathering of Alex Peracaula"/>
     <h1>Poems</h1>
-    <Poema title="No ta g a">
+    <Poema title="No ta g a" first>
       En las lágrimas de alguien<br/>
       anidan todos los pájaros<br/>
       que no verán mi balcón.<br/>

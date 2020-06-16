@@ -1,7 +1,6 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Poema from "../components/Poema/poema";
@@ -10,7 +9,7 @@ const Poesia = (props) => (
   <Layout page={'poesia'}>
     <SEO title="Poesía" lang="es" description="Blog de poesía de Alex Peracaula"/>
     <h1>Poemas</h1>
-    <Poema title="No ta g a">
+    <Poema title="No ta g a" first>
       En las lágrimas de alguien<br/>
       anidan todos los pájaros<br/>
       que no verán mi balcón.<br/>
