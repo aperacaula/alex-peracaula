@@ -82,6 +82,21 @@ const CV = (props) => (
           Cortometraje "Os Genios São Loucos ou Semi-deuses", de Beactriz Guerreiro 2017
         </li>
       </ul>
+      <h2>Idiomas</h2>
+      <ul>
+        <li>
+          Catalán
+        </li>
+        <li>
+          Castellano
+        </li>
+        <li>
+          Inglés
+        </li>
+        <li>
+          Portugués
+        </li>
+      </ul>
     </div>
     <Link to="/">- Volver al inicio -</Link>
   </Layout>
