@@ -14,6 +14,7 @@
         font-size: 12px;
         select {
             border: none;
+            -webkit-appearance: none;
         }
     }
     @include tablet {
