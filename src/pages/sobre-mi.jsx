@@ -18,16 +18,16 @@ const SobreMi = (props) => (
      <p>Manteniendo el teatro como un hobbie necesario, estudié Ingeniería Industrial
        en la Universitat Politècnica de Catalunya y acabé la carrera en Irvine, California,
        donde podían convivir diariamente mis estudios con mi pasión por el surf. Tras volver a Europa,
-       completé un Máster en Ingeniería en Energías Renovables en Lisboa, donde viví
+       completé un Máster de Ingeniería en Energías Renovables, en Lisboa, donde viví
        un año lleno de emociones. Allí fue donde me uní al grupo de teatro <a href="http://www.lisbonplayers.com.pt/site/">"The Lisbon Players"</a>,
        el grupo de teatro en inglés con más trayectoria de Portugal. Protagonizando dos
        de sus espectaculos, una obra original de Elettra Sachi, "The Stone Flower" y una producción de 
        "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes acentos ingleses
-       y aplicar el conocimiento profesional que tenía del idioma encima de 
+       y aplicar el conocimiento, hasta el momento profesional, encima de 
        las tablas. Esta experiencia me alentó a perseguir mi sueño, siempre presente, de ser actor.
      </p>
 
-     <p>Por ello, volví a Barcelona en 2017, donde cursé la Formación Profesional 
+     <p>Por ello, volví a Barcelona en 2017, para cursar la Formación Profesional 
        del Actor en el Estudi Nancy Tuñón-Jordi Oliver, donde he adquirido nuevos conocimientos
        tanto sobre mis mecanismos emocionales como actor, como sobre técnicas
        necesarias para la interpretación. Mis ganas y voluntad de actuar me han llevado a complementar

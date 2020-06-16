@@ -36,7 +36,7 @@ const Menu = ({ lan = 'es', slide, page }) => {
         case 'ca':
             galeria = 'Galeria';
             galeriaUrl = '/ca/galeria';
-            sobreMi = 'Sobre mí';
+            sobreMi = 'Sobre mi';
             sobreMiUrl = '/ca/sobre-mi';
             poesia = 'Poesia';
             poesiaUrl = '/ca/poesia';
@@ -44,7 +44,7 @@ const Menu = ({ lan = 'es', slide, page }) => {
             cvUrl = '/ca/cv';
             contacto = 'Contacte';
             contactoUrl = '/ca/contacte';
-            videos = 'Videos';
+            videos = 'Vídeos';
             videosUrl = '/ca/videos';
             break
         default:
