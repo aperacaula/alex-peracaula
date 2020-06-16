@@ -34,28 +34,28 @@ const CV = (props) => (
     <h2>Teatro</h2>
       <ul>
         <li>
-        "Almost, Maine" dirigida per Pepa Fluvià, Barcelona 2019     
+        "Almost, Maine" dirigida per Pepa Fluvià, Barcelona 2019
         </li>
         <li>
-        “A por quienes” de Raimundo Morte y creació col.lectiva, Porta 4, Barcelona 2019 
+        “A por quienes” de Raimundo Morte y creació col.lectiva, Porta 4, Barcelona 2019
         </li>
         <li>
-        "Much Ado About Nothing" by William Shakespeare, The Lisbon Players at Estrella Hall, Lisboa 2017     
+        "Much Ado About Nothing" by William Shakespeare, The Lisbon Players at Estrella Hall, Lisboa 2017
         </li>
         <li>
-        "The Stone Flower" by Elettra Sacchi, The Lisbon Players at Estrella Hall, Lisboa 2017     
+        "The Stone Flower" by Elettra Sacchi, The Lisbon Players at Estrella Hall, Lisboa 2017
         </li>
         <li>
-          "Olvida los Tambores" de Ana Diosdado, La Teatral, Barcelona 2014    
+          "Olvida los Tambores" de Ana Diosdado, La Teatral, Barcelona 2014
         </li>
         <li>
-        “La dama del alba” de Alejandro Casona, La Teatral, Barcelona 2013      
+        “La dama del alba” de Alejandro Casona, La Teatral, Barcelona 2013
         </li>
         <li>
-        "Casats per Amor a la Pasta" de Lluís Coquard, La Teatral, Barcelona 2012      
+        "Casats per Amor a la Pasta" de Lluís Coquard, La Teatral, Barcelona 2012
         </li>
         <li>
-        "El Bon Doctor" d'Anton Tchéjov, La Teatral, Barcelona 2010    
+        "El Bon Doctor" d'Anton Tchéjov, La Teatral, Barcelona 2010
         </li>
       </ul>
     <h2>Cámara</h2>
