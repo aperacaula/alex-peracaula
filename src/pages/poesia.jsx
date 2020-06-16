@@ -217,7 +217,7 @@ const Poesia = (props) => (
     <Poema title="Resaca, simple y llana">
       Jaqueca tremenda,<br />
       migraña puntiaguda<br />
-      edor de mierda<br />
+      hedor de mierda<br />
       y plomo raído.<br />
       Salud te sientes<br />
       lejana y no te has ido,<br />
