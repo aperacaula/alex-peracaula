@@ -28,6 +28,7 @@
             font-size: 16px;
             select {
                 border: none;
+                -webkit-appearance: none;
             }
         }
 
@@ -47,6 +48,7 @@
             transition: all 0.75s ease-out;
             select {
                 border: none;
+                -webkit-appearance: none;
             }
         }
         div:hover {
