@@ -49,11 +49,27 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:type`,
-          content: `actor`,
+          content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: `https://www.alexperacaula.com`,
         },
         {
           property: `og:image`,
-          content: `https://i.ibb.co/rHv7NJ4/alex-book-3.jpg`,
+          content: `https://i.ibb.co/wYVgQ8T/rsz-og-image.jpg`,
+        },
+        {
+          property: `og:image:width`,
+          content: `800`,
+        },
+        {
+          property: `og:image:height`,
+          content: `533`,
+        },
+        {
+          property: `og:video`,
+          content: `https://vimeo.com/408550057`,
         },
         {
           name: `twitter:card`,
