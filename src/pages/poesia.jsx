@@ -102,7 +102,7 @@ const Poesia = (props) => (
     Abierto al arte ajeno, a la poesía de incubadora.<br />
     Urticaria con crosta y qué sonrisa,<br />
     con ella me he tomado mi tiempo y me he quedado quieto.<br />
-    Por este cuento teledirigido campan a sus anchas arenas movedizas, de grano fino. Cógelo si tienes huevos,<br />
+    Por este cuento teledirigido campan a sus anchas arenas movedizas, de grano fino. Cógelas si tienes huevos,<br />
     pues hay salitre en la memoria,<br />
     y a veces no bastará con regarla<br />
     para que se acuerde de estar mojada.<br />
