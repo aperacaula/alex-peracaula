@@ -13,7 +13,7 @@ const CV = (props) => (
     <h2>Training</h2>
       <ul>
         <li>
-          Professional Acting Degree in Nancy Tuñón, Barcelona, 2016-2019
+          Professional Acting Degree in Nancy Tuñón, Barcelona, 2017-2020
         </li>
         <li>
           Camera Acting by Esteve Rovira, 2019  

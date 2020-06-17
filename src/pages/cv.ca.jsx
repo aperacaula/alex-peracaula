@@ -13,7 +13,7 @@ const CV = (props) => (
       <h2>Formació</h2>
       <ul>
         <li>
-          Formació professional de l'actor a Nancy Tuñón, Barcelona, 2016-2019
+          Formació professional de l'actor a Nancy Tuñón, Barcelona, 2017-2020
         </li>
         <li>
           Curs del actor delante de la cámara impartido por Esteve Rovira, 2019  
