@@ -3,7 +3,6 @@ import styles from './footer.module.scss';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import Img from "gatsby-image"
 
 const Footer = () => {
     return (
