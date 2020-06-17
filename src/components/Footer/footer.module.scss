@@ -20,27 +20,5 @@ footer {
     .logos_container {
         display: flex;
         align-items: center;
-        .mail {
-            height: 30px;
-            width: 30px;
-            img {
-                margin-bottom: 0;
-            }
-        }
-        .instagram {
-            height: 28px;
-            width: 28px;
-            img {
-                margin-bottom: 0;
-            }
-            margin-right: 3px;
-        }
-        .linkedin {
-            height: 20px;
-            img {
-                margin-bottom: 0;
-            }
-            width: 20px;
-        }
     }
 }
