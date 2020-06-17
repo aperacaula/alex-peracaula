@@ -3,10 +3,12 @@ module.exports = {
     title: `Alex Peracaula Ruiz`,
     description: `Acting portfolio web for Alex Peracaula Ruiz`,
     author: `@aperacaula`,
+    siteUrl: 'https://www.alexperacaula.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
