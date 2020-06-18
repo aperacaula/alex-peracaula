@@ -1,12 +1,10 @@
-// Gatsby supports TypeScript natively!
-import React, { useState } from "react"
+import React, { lazy, useState, Suspense } from "react"
 import { Link } from "gatsby"
 import styles from "../styles/videos.module.scss"
-import Layout from "../components/Layout/layout"
-import SEO from "../components/seo"
 import YouTube from 'react-youtube';
 import Loader from "react-loader-spinner"
-
+const Layout = lazy(() => import("../components/Layout/layout"))
+const SEO = lazy(() => import("../components/seo"))
 
 const videosUrls = [
   'https://youtu.be/w0NcyiahpzI',
@@ -51,27 +49,29 @@ const Videos = (props) => {
   };
 
   return (
-    <Layout page={'videos'}>
-      <SEO title="Videos" lang="es" description="Videos parodia de El Ultimo Superviviente, Alex Peracaula"/>
-      <h1>Vídeos parodia</h1>
-      <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
-        <Loader
-          type="Puff"
-          color="black"
-          height={100}
-          width={100}
-          timeout={3000} //3 secs
-          className={videoLoaded ? styles.hide : ''}
-        />
-      </div>
-      {videosIds.map(id => (
-        <>
-          <YouTube videoId={id} opts={optsDesktop} className={styles.desktop} onReady={() => setVideoLoaded(true)}/>
-          <YouTube videoId={id} opts={optsMobile} className={styles.mobile} onReady={() => setVideoLoaded(true)}/>
-        </>
-      ))}
-      <Link to="/">- Volver al inicio -</Link>
-    </Layout>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Layout page={'videos'}>
+        <SEO title="Videos" lang="es" description="Videos parodia de El Ultimo Superviviente, Alex Peracaula"/>
+        <h1>Vídeos parodia</h1>
+        <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
+          <Loader
+            type="Puff"
+            color="black"
+            height={100}
+            width={100}
+            timeout={3000} //3 secs
+            className={videoLoaded ? styles.hide : ''}
+          />
+        </div>
+        {videosIds.map(id => (
+          <>
+            <YouTube videoId={id} opts={optsDesktop} className={styles.desktop} onReady={() => setVideoLoaded(true)}/>
+            <YouTube videoId={id} opts={optsMobile} className={styles.mobile} onReady={() => setVideoLoaded(true)}/>
+          </>
+        ))}
+        <Link to="/">- Volver al inicio -</Link>
+      </Layout>
+    </Suspense>
 )}
 
 export default Videos

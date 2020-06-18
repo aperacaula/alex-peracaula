@@ -1,11 +1,11 @@
 // Gatsby supports TypeScript natively!
-import React, { useState } from "react"
+import React, { useState, lazy, Suspense } from "react"
 import { Link } from "gatsby"
 import styles from "../styles/galeria.module.scss"
-import Layout from "../components/Layout/layout"
-import SEO from "../components/seo"
 import Masonry from "react-masonry-css"
 import Dialog from '@material-ui/core/Dialog';
+const Layout = lazy(() => import("../components/Layout/layout"))
+const SEO = lazy(() => import("../components/seo")) 
 
 const breakpointColumnsObj = {
   default: 4,
@@ -68,29 +68,31 @@ const Galeria = (props) => {
     setClickedUrl(url)
   }
   return (
-    <Layout page={'galeria'}>
-      <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula"/>
-      <h1>Galería de fotografías</h1>
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className={styles.my_masonry_grid}
-        columnClassName={styles.my_masonry_grid_column}
-      >
-        {imagesUrls.map((url) => (
-          <img alt="" src={url.original} onClick={() => onOpen(url.original)}/>
-        ))}
-      </Masonry>
-      <Dialog
-        open={visible}
-        onClose={onClose}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-      >
-        <img className={styles.img} alt="" src={clickedUrl} />
-      </Dialog>
-      <Link to="/">- Volver al inicio -</Link>
-      
-    </Layout>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Layout page={'galeria'}>
+        <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula"/>
+        <h1>Galería de fotografías</h1>
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className={styles.my_masonry_grid}
+          columnClassName={styles.my_masonry_grid_column}
+        >
+          {imagesUrls.map((url) => (
+            <img alt="" src={url.original} onClick={() => onOpen(url.original)}/>
+          ))}
+        </Masonry>
+        <Dialog
+          open={visible}
+          onClose={onClose}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <img className={styles.img} alt="" src={clickedUrl} />
+        </Dialog>
+        <Link to="/">- Volver al inicio -</Link>
+        
+      </Layout>
+    </Suspense>
 )}
 
 export default Galeria
