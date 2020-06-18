@@ -23,7 +23,7 @@ const SobreMi = (props) => (
        el grupo de teatro en inglés con más trayectoria de Portugal. Protagonizando dos
        de sus espectaculos, una obra original de Elettra Sachi, "The Stone Flower" y una producción de 
        "Much Ado About Nothing" de William Shakespeare, pude trabajar con diferentes acentos ingleses
-       y aplicar el conocimiento, hasta el momento profesional, encima de 
+       y aplicar el conocimiento del idioma, hasta el momento profesional, encima de 
        las tablas. Esta experiencia me alentó a perseguir mi sueño, siempre presente, de ser actor.
      </p>
 
