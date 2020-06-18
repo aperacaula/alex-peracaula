@@ -11,14 +11,14 @@ import ImageGallery from 'react-image-gallery'
 const IndexPage = () => {
   const [videoLoaded, setVideoLoaded] = useState(false)
   const imagesUrls = [
-    { original: 'https://i.ibb.co/fD8yKV8/alex-book-1.jpg' },
+    { original: 'https://i.ibb.co/JyCmTjp/alex-book-1-min.jpg' },
     { original: 'https://i.ibb.co/wYVgQ8T/rsz-og-image.jpg' },
     { original: 'https://i.ibb.co/SdtQ9cv/alex-book-2.jpg' },
-    { original: 'https://i.ibb.co/k0X7hJk/IMG-5029.jpg'},
+    { original: 'https://i.ibb.co/fxcLzcB/IMG-5029-min.jpg'},
     { original: 'https://i.ibb.co/KD37x8x/IMG-5067.jpg'},
-    { original: 'https://i.ibb.co/rGZdGHf/IMG-5030.jpg'},
-    { original: 'https://i.ibb.co/3c8qfjR/IMG-2861.jpg'},
-    { original: 'https://i.ibb.co/R4QbH2C/IMG-2889.png'},
+    { original: 'https://i.ibb.co/DtZZjgb/IMG-5030-min.jpg'},
+    { original: 'https://i.ibb.co/SNkT8cT/IMG-2861-min.jpg'},
+    { original: 'https://i.ibb.co/WvR1M0B/IMG-2889-min.png'},
   ]
   
   return (
