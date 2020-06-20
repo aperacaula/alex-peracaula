@@ -38,12 +38,13 @@ const IndexPage = () => {
   const srcSetArray = sortedImages.map(image => ({
     srcSet: image.node.fluid.srcSet,
     original: image.node.fluid.src,
-    originalAlt: 'alex peracaula'
+    originalAlt: 'alex peracaula',
+    originalTitle: 'alex peracaula'
   }))
   return (
   <Layout slide={true} lan={'ca'} >
     <SEO title="Alex Peracaula" lang="ca" description="Pàgina web de l'actor Alex Peracaula"/>
-    <h1 className={styles.smaller_h1}>Videobook</h1>
+    <h2 className={styles.smaller_h1}>Videobook</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
           type="Puff"

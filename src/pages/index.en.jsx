@@ -38,7 +38,8 @@ const IndexPage = () => {
   const srcSetArray = sortedImages.map(image => ({
     srcSet: image.node.fluid.srcSet,
     original: image.node.fluid.src,
-    originalAlt: 'alex peracaula'
+    originalAlt: 'alex peracaula',
+    originalTitle: 'alex peracaula'
   }))
   
   return (
@@ -47,7 +48,7 @@ const IndexPage = () => {
       title="Alex Peracaula"
       lang="en"
       description="Portfolio website of the actor Alex Peracaula"/>
-    <h1 className={styles.smaller_h1}>Reel</h1>
+    <h2 className={styles.smaller_h1}>Reel</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
           type="Puff"

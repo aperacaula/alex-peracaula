@@ -11,13 +11,15 @@ const Header = ({ slide, page, lan }) => (
     ?
       <Slide left>
       <div className={styles.myname_desktop}>
+        <h1>
           <Link
             to="/"
           >
-            <span>Àlex</span><br />
-            <span>Peracaula</span><br />
-            <span>Ruiz</span>
+            <span>Àlex </span><br />
+            <span>Peracaula </span><br />
+            <span>Ruiz </span>
           </Link>
+        </h1>
       </div>
       </Slide>
     :
@@ -31,13 +33,26 @@ const Header = ({ slide, page, lan }) => (
           </Link>
       </div>
     }
+    {page !== 'home'
+    ?
+      <div className={styles.myname_mobile}>
+        <Link
+          to="/"
+        >
+          <span>Àlex Peracaula Ruiz</span>
+        </Link>
+      </div>
+    : 
     <div className={styles.myname_mobile}>
-      <Link
-        to="/"
-      >
-        <span>Àlex Peracaula Ruiz</span>
-      </Link>
+      <h1>
+        <Link
+          to="/"
+        >
+          <span>Àlex Peracaula Ruiz</span>
+        </Link>
+      </h1>
     </div>
+    }
     <Menu slide={slide} page={page} lan={lan}/>
   </header>
 )
