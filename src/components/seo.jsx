@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: 'alex peracaula actor',
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -93,9 +97,9 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `es`,
   meta: [],
-  description: ``,
+  description: `Página web del actor Alex Peracaula`,
 }
 
 SEO.propTypes = {

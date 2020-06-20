@@ -7,7 +7,7 @@ import styles from '../styles/sobremi.module.scss'
 
 const SobreMi = (props) => (
   <Layout page={'sobremi'} lan={'en'}>
-    <SEO title="About me" lang='en' description="Facts about my life, Alex Peracaula"/>
+    <SEO title="About Alex Peracaula" lang='en' description="Facts about my life, Alex Peracaula"/>
     <h1>About Me</h1>
     <p>My name is Alex Peracaula Ruiz and I was born in Barcelona on October the 7th 1993.
       My passion for theatre began at an early age. Mainly due to the influence of my grandfather

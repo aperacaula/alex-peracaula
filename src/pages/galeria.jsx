@@ -95,7 +95,7 @@ const Galeria = (props) => {
   return (
     <Layout page={'galeria'}>
       <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula"/>
-      <h1>Galería de fotografías</h1>
+      <h1>Galería de fotografías de Alex</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className={styles.my_masonry_grid}

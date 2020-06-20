@@ -9,7 +9,7 @@ import styles from '../styles/contact.module.scss'
 const Contacto = (props) => {
   return (
     <Layout page={'contacto'}>
-      <SEO title="Contacto" lang="es"/>
+      <SEO title="Contacto Alex Peracaula" lang="es" description="Página de contacto Alex Peracaula"/>
       <h1>Contáctame</h1>
       <div className={styles.contact_content}>
         <div className={styles.contact_section}>

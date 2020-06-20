@@ -9,7 +9,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 const Contacto = (props) => {
   return (
     <Layout page={'contacto'} lan={'ca'}>
-      <SEO title="Contacte" lang="ca"/>
+      <SEO title="Contacte Alex Peracaula" lang="ca" description="Pàgina de contacte Alex Peracaula"/>
       <h1>Contacta'm</h1>
       <div className={styles.contact_content}>
         <div className={styles.contact_section}>
