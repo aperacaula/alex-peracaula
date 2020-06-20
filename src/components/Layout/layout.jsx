@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import styles from "./layout.module.scss"
+import Trick from "../Trick/trick"
 
 const Layout = ({ children, page = 'home', slide = false, lan = 'es' }) => {
 
@@ -18,6 +19,7 @@ const Layout = ({ children, page = 'home', slide = false, lan = 'es' }) => {
     <>
       <Header siteTitle='Alex Peracaula Ruiz' slide={slide} page={page} lan={lan} />
         <main>{children}</main>
+      <Trick lan={lan} />
       <Footer />
     </>
   )
