@@ -45,7 +45,7 @@ const IndexPage = () => {
   
   return (
   <Layout slide={true} >
-    <SEO title="Alex Peracaula" lang="es" description="Página web del actor Alex Peracaula"/>
+    <SEO title="Actor" lang="es" description="Página web del actor Alex Peracaula"/>
     <h2 className={styles.smaller_h1}>Videobook</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader

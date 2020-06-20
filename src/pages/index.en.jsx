@@ -45,7 +45,7 @@ const IndexPage = () => {
   return (
   <Layout slide={true} lan={'en'}>
     <SEO
-      title="Home"
+      title="Actor"
       lang="en"
       description="Portfolio website of the actor Alex Peracaula"/>
     <h2 className={styles.smaller_h1}>Reel</h2>
