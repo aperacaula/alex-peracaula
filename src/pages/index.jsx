@@ -76,6 +76,7 @@ const IndexPage = () => {
           showPlayButton={false}
           autoPlay={true}
           slideInterval={4000}
+          lazyLoad={true}
           showNav={true}/>
       </div>
     </div>
