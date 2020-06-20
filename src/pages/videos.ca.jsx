@@ -8,17 +8,6 @@ import YouTube from 'react-youtube';
 import Loader from "react-loader-spinner"
 
 
-const videosUrls = [
-  'https://youtu.be/w0NcyiahpzI',
-  'https://youtu.be/5DCk1i15s8Y',
-  'https://youtu.be/5sGKQnpZLFg',
-  'https://youtu.be/AV5m2W9MH_w',
-  'https://youtu.be/8nyVAJhPAEs',
-  'https://youtu.be/5sMrU6zA2kE',
-  'https://youtu.be/-1hhBmlEDSE',
-  'https://youtu.be/g1olyrnNuF8',
-]
-
 const videosIds = [
   '5DCk1i15s8Y',
   'g1olyrnNuF8',

@@ -104,7 +104,7 @@ const Galeria = (props) => {
         {sortedImages.map((image) => (
           <div style={{ width: '100%' }} onClick={() => onOpen(image.node.fluid.src)}>
             <Img
-              alt={image.node.fluid.src}
+              alt="alex peracaula"
               fluid={image.node.fluid}
             />
           </div>

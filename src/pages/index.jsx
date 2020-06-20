@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
@@ -10,20 +10,41 @@ import ImageGallery from 'react-image-gallery'
 
 const IndexPage = () => {
   const [videoLoaded, setVideoLoaded] = useState(false)
-  const imagesUrls = [
-    { original: 'https://i.ibb.co/JyCmTjp/alex-book-1-min.jpg' },
-  { original: 'https://i.ibb.co/rQRYxwX/2.jpg' },
-  { original: 'https://i.ibb.co/WDTRQL9/3.jpg' },
-  { original: 'https://i.ibb.co/fxcLzcB/IMG-5029-min.jpg'},
-  { original: 'https://i.ibb.co/st102p6/5.jpg'},
-  { original: 'https://i.ibb.co/DtZZjgb/IMG-5030-min.jpg'},
-  { original: 'https://i.ibb.co/SNkT8cT/IMG-2861-min.jpg'},
-  { original: 'https://i.ibb.co/WvR1M0B/IMG-2889-min.png'},
-  ]
+
+  const { allImageSharp: { edges: images } } = useStaticQuery(
+    graphql`
+      query {
+        allImageSharp {
+          edges {
+            node {
+              fluid {
+                src
+                srcSet
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+  // const imagesSrc = images.map(image => image.node.fluid.src)
+  const sortedImages = images.sort((a, b) => {
+    const strA = Number(a.node.fluid.src.split('/')[a.node.fluid.src.split('/').length - 1].split('.')[0])
+    const strB = Number(b.node.fluid.src.split('/')[b.node.fluid.src.split('/').length - 1].split('.')[0])
+    if (strA > strB) return 1
+    if (strA < strB) return -1
+    return 0
+  }).slice(0,8)
+
+  const srcSetArray = sortedImages.map(image => ({
+    srcSet: image.node.fluid.srcSet,
+    original: image.node.fluid.src,
+    originalAlt: 'alex peracaula'
+  }))
   
   return (
   <Layout slide={true} >
-    <SEO title="Home" lang="es" description="Página web de Alex Peracaula, actor"/>
+    <SEO title="Alex Peracaula" lang="es" description="Página web de Alex Peracaula, actor"/>
     <h1 className={styles.smaller_h1}>Videobook</h1>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
@@ -47,7 +68,14 @@ const IndexPage = () => {
       <Link to="/galeria"><h2>Galería</h2></Link>
       <Link to="/galeria"><p>(Ver más)</p></Link>
       <div className={styles.container_slider}>
-        <ImageGallery items={imagesUrls} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} autoPlay={false} slideInterval={3500} showNav={true}/>
+        <ImageGallery
+          items={srcSetArray}
+          showThumbnails={false}
+          showFullscreenButton={false}
+          showPlayButton={false}
+          autoPlay={true}
+          slideInterval={4000}
+          showNav={true}/>
       </div>
     </div>
   </Layout>
