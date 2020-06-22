@@ -22,3 +22,41 @@
 .hide {
     display: none;
 }
+
+.videobookloader_container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_container {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    opacity: 0;
+    @include tablet {
+        margin-top: 1.45rem;
+    }
+    @include desktop {
+        margin-top: 1.45rem;
+    }
+    div:first-child {
+        @include mobile {
+            max-height: 30vh !important;
+        }
+    }
+}
+
+.video_container.change {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.h2 {
+    margin-top: 20px;
+}
+
+.h2_2 {
+    margin: 40px 0;
+}

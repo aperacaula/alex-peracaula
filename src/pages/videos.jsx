@@ -6,6 +6,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import YouTube from 'react-youtube';
 import Loader from "react-loader-spinner"
+import ReactPlayer from "react-player"
 
 const videosIds = [
   '5DCk1i15s8Y',
@@ -20,6 +21,7 @@ const videosIds = [
 
 const Videos = (props) => {
   const [videoLoaded, setVideoLoaded] = useState(false)
+  const [videobookLoaded, setVideobookLoaded] = useState(false)
   const optsDesktop = {
     height: '390',
     width: '640',
@@ -44,7 +46,27 @@ const Videos = (props) => {
         title="Videos Alex Peracaula"
         lang="es"
         description="Vídeos de Alex Peracaula. En esta página está el videobook y otros vídeos parodia sobre 'El Ultimo Superviviente'."/>
-      <h1>Vídeos parodia</h1>
+      <h1>Vídeos</h1>
+      <h2 className={styles.h2}>Videobook</h2>
+      <div className={`${styles.loader_container} ${videobookLoaded ? styles.hide: ''}`}>
+        <Loader
+            type="Puff"
+            color="black"
+            height={100}
+            width={100}
+            timeout={3000} //3 secs
+            className={videobookLoaded ? styles.hide : ''}
+          />
+      </div>
+      <div className={ `${styles.video_container} ${videobookLoaded ? styles.change : ''}`}>
+        <ReactPlayer
+          url="https://vimeo.com/408550057"
+          controls={true}
+          onReady={() => setVideobookLoaded(true)}
+          className={styles.video_player}
+        />
+      </div>
+      <h2 className={styles.h2_2}>Vídeos parodia</h2>
       <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
         <Loader
           type="Puff"
