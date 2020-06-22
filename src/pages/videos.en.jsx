@@ -41,7 +41,10 @@ const Videos = (props) => {
 
   return (
     <Layout page={'videos'} lan={'en'}>
-      <SEO title="Videos Alex Peracaula" lang="en" description="Ultimate survival Videos Alex Peracaula"/>
+      <SEO
+        title="Videos Alex Peracaula"
+        lang="en"
+        description="Alex Peracaula's video page. In this page you will find the acting reel and also some parody videos about 'Ultimate survival'."/>
       <h1>Parody videos</h1>
       <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
         <Loader

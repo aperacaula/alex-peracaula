@@ -47,7 +47,7 @@ const breakpointColumnsObj = {
 //   { original: 'https://i.ibb.co/qDPY2Yj/28.jpg'},
 //   { original: 'https://i.ibb.co/FDBVHzB/29.jpg'},
 //   { original: 'https://i.ibb.co/2vXtX2Q/30.jpg'},
-//   { original: 'https://i.ibb.co/Mk34Gcx/31.jpg'},  
+//   { original: 'https://i.ibb.co/Mk34Gcx/31.jpg'},
 //   { original: 'https://i.ibb.co/thh73CT/32.jpg'},
 //   { original: 'https://i.ibb.co/x1K3RGr/33.jpg'},
 //   { original: 'https://i.ibb.co/F5hD7nc/34.jpg'},
@@ -94,7 +94,7 @@ const Galeria = (props) => {
   }
   return (
     <Layout page={'galeria'}>
-      <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula"/>
+      <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula. Esta página sirve a modo de book fotográfico en el que comparto fotos de diferentes sesiones en las que he participado."/>
       <h1>Galería de fotografías</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}

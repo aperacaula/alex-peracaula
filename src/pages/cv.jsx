@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const CV = (props) => (
   <Layout page={'cv'}>
-    <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula"/>
+    <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo."/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
       <h2>Formación</h2>
