@@ -47,7 +47,9 @@ const IndexPage = () => {
     <SEO
       title="Actor"
       lang="en"
-      description="Portfolio website of the actor Alex Peracaula"/>
+      description="Portfolio website of the actor Alex Peracaula, with
+       all the available material (pictures, videos, cv...). In the poetry 
+       section, in Spanish, I also share some of my writing."/>
     <h2 className={styles.smaller_h1}>Reel</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
@@ -62,7 +64,7 @@ const IndexPage = () => {
     <div className={ `${styles.video_container} ${videoLoaded ? styles.change : ''}`}>
       <ReactPlayer
         url="https://vimeo.com/408550057"
-        vimeoConfig={{ iframeParams: { fullscreen: 0 } }}
+        controls={true}
         onReady={() => setVideoLoaded(true)}
         className={styles.video_player}
       />

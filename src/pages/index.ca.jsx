@@ -43,7 +43,13 @@ const IndexPage = () => {
   }))
   return (
   <Layout slide={true} lan={'ca'} >
-    <SEO title="Actor" lang="ca" description="Pàgina web de l'actor Alex Peracaula"/>
+    <SEO
+      title="Actor"
+      lang="ca"
+      description="Pàgina web de l'actor Alex Peracaula, amb tot el 
+      material disponible (fotos, vídeos, currículum...). També es pot veure la meva part
+      més íntima en l'apartat de Poesia."
+    />
     <h2 className={styles.smaller_h1}>Videobook</h2>
     <div className={`${styles.loader_container} ${videoLoaded ? styles.hide: ''}`}>
       <Loader
@@ -58,7 +64,7 @@ const IndexPage = () => {
     <div className={ `${styles.video_container} ${videoLoaded ? styles.change : ''}`}>
       <ReactPlayer
         url="https://vimeo.com/408550057"
-        vimeoConfig={{ iframeParams: { fullscreen: 0 } }}
+        controls={true}
         onReady={() => setVideoLoaded(true)}
         className={styles.video_player}
       />

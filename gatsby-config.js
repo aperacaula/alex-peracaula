@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Alex Peracaula Ruiz`,
-    description: `Acting portfolio web for Alex Peracaula Ruiz`,
+    description: `Web del actor Alex Peracaula, donde comparte todo el material (fotos, vídeos, currículum, poemas...)`,
     author: `@aperacaula`,
     siteUrl: 'https://www.alexperacaula.com',
   },
