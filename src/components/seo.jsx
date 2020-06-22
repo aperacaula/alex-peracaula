@@ -61,15 +61,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://i.ibb.co/wYVgQ8T/rsz-og-image.jpg`,
-        },
-        {
-          property: `og:image:width`,
-          content: `800`,
-        },
-        {
-          property: `og:image:height`,
-          content: `533`,
+          content: `https://i.ibb.co/JyCmTjp/alex-book-1-min.jpg`,
         },
         {
           property: `og:video`,
