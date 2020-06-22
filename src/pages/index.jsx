@@ -6,7 +6,6 @@ import styles from "../styles/index.module.scss"
 import ReactPlayer from "react-player"
 import Loader from "react-loader-spinner"
 import ImageGallery from 'react-image-gallery'
-import { Player } from 'video-react'
 
 const IndexPage = () => {
   const [videoLoaded, setVideoLoaded] = useState(false)
