@@ -48,7 +48,7 @@ const IndexPage = () => {
     <SEO
       title="Actor"
       lang="es"
-      description="Pàgina web del actor Alex Peracaula, con todo el 
+      description="Página web del actor Alex Peracaula, con todo el 
       material disponible (fotos, vídeos, currículum...). En el apartado 
       de poesía, a modo de blog, comparto algunos de mis escritos."/>
     <h2 className={styles.smaller_h1}>Videobook</h2>
