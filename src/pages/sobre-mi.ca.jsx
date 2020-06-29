@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import styles from '../styles/sobremi.module.scss'
 
 const SobreMi = (props) => (
-  <Layout page={'sobremi'} >
+  <Layout page={'sobremi'} lan="ca">
     <SEO title="Sobre Alex Peracaula" lang="ca"/>
     <h1>Sobre mi</h1>
     <p>Em dic Àlex Peracaula Ruiz, i vaig néixer el 7 de octubre de 1993 en Barcelona.

@@ -10,6 +10,7 @@ const CV = (props) => (
     <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo."/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
+      <p className={styles.languages}>Idiomas: <span>Catalán, Español, Inglés, Portugués</span></p>
       <h2>Formación</h2>
       <ul>
         <li>
@@ -80,21 +81,6 @@ const CV = (props) => (
         </li>
         <li>
           Cortometraje "Os Genios São Loucos ou Semi-deuses", de Beactriz Guerreiro 2017
-        </li>
-      </ul>
-      <h2>Idiomas</h2>
-      <ul>
-        <li>
-          Catalán
-        </li>
-        <li>
-          Castellano
-        </li>
-        <li>
-          Inglés
-        </li>
-        <li>
-          Portugués
         </li>
       </ul>
     </div>

@@ -67,7 +67,7 @@ const Videos = (props) => {
           className={styles.video_player}
         />
       </div>
-      <h2 className={styles.h2_2}>Vídeos parodia</h2>
+      <h2 className={styles.h2_2}>Parody videos</h2>
       <div className={`${styles.loader_container} ${videoLoaded ? styles.hide : ''}`}>
         <Loader
           type="Puff"

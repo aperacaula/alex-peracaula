@@ -40,7 +40,7 @@ const SobreMi = (props) => (
        </p>
 
 
-    <Link to="/">- Volver al inicio -</Link>
+    <Link to="/">- Back to Home -</Link>
   </Layout>
 )
 

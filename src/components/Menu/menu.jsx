@@ -11,12 +11,45 @@ const Menu = ({ lan = 'es', slide, page }) => {
     let sobreMiUrl = '/sobre-mi';
     let poesia = 'Poesía';
     let poesiaUrl = '/poesia';
-    let cv = 'CV';
+    let cv = 'Currículum';
     let cvUrl = '/cv';
     let contacto = 'Contacto';
     let contactoUrl = '/contacto';
     let videos = 'Vídeos';
     let videosUrl = '/videos';
+
+    const routeDic = {
+        galeria: {
+            es: '/galeria',
+            ca: '/ca/galeria',
+            en: '/en/photos'
+        },
+        videos: {
+            es: '/videos',
+            ca: '/ca/videos',
+            en: '/en/videos'
+        },
+        contacto: {
+            es: '/contacto',
+            ca: '/ca/contacte',
+            en: '/en/contact'
+        },
+        sobremi: {
+            es: '/sobre-mi',
+            ca: '/ca/sobre-mi',
+            en: '/en/about-me'
+        },
+        poesia: {
+            es: '/poesia',
+            ca: '/ca/poesia',
+            en: '/en/poetry'
+        },
+        cv: {
+            es: '/cv',
+            ca: '/ca/cv',
+            en: '/en/cv'
+        }
+    }
 
     switch (lan) {
         case 'en':
@@ -50,7 +83,6 @@ const Menu = ({ lan = 'es', slide, page }) => {
         default:
             break
     }
-
     if (!slide) {
         return (
             <div className={styles.menu_container}>
@@ -104,16 +136,20 @@ const Menu = ({ lan = 'es', slide, page }) => {
                 </Link>
                 <div className={styles.menu_box}>
                     <select
-                        value={lan !== 'es' ? `/${lan}` : '/'}
-                        onChange={(e) => navigate(e.target.value)}
+                        value={lan !== 'es' ? lan : 'es'}
+                        onChange={(e) => {
+                            const newRoute = routeDic[page]
+                                ? routeDic[page][e.target.value] : `/${e.target.value}`
+                            navigate(newRoute)
+                        }}
                     >
-                        <option value="/">
+                        <option value="es">
                             ES
                         </option>
-                        <option value="/ca">
+                        <option value="ca">
                             CA
                         </option>
-                        <option value="/en">
+                        <option value="en">
                             EN
                         </option>
                     </select>
@@ -156,16 +192,20 @@ const Menu = ({ lan = 'es', slide, page }) => {
                 </Link>
                 <div className={styles.menu_box}>
                     <select
-                            value={lan !== 'es' ? `/${lan}` : '/'}
-                            onChange={(e) => navigate(e.target.value)}
+                        value={lan !== 'es' ? lan : 'es'}
+                        onChange={(e) => {
+                            const newRoute = routeDic[page]
+                                ? routeDic[page][e.target.value] : `/${e.target.value}`
+                            navigate(newRoute)
+                        }}
                     >
-                        <option value="/">
+                        <option value="es">
                             ES
                         </option>
-                        <option value="/ca">
+                        <option value="ca">
                             CA
                         </option>
-                        <option value="/en">
+                        <option value="en">
                             EN
                         </option>
                     </select>

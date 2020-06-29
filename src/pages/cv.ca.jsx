@@ -10,13 +10,14 @@ const CV = (props) => (
     <SEO title="Currículum Alex Peracaula" lang="ca" description='Curriculum vitae artístic Alex Peracaula. Repàs de la formació, projectes de teatre, cinema i audiovisuals en els que he participat i idiomes que parlo.'/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
+      <p className={styles.languages}>Idiomes: <span>Català, Espanyol, Anglès, Portuguès</span></p>
       <h2>Formació</h2>
       <ul>
         <li>
           Formació professional de l'actor a Nancy Tuñón, Barcelona, 2017-2020
         </li>
         <li>
-          Curs del actor delante de la cámara impartido por Esteve Rovira, 2019  
+          Curs del actor delante de la cámara impartido por Esteve Rovira, 2019
         </li>
         <li>
           Curs de casting impartido por Pep Armengol, 2019
@@ -80,21 +81,6 @@ const CV = (props) => (
         </li>
         <li>
           Curtmetratge "Os Genios São Loucos ou Semi-deuses", de Beactriz Guerreiro 2017
-        </li>
-      </ul>
-      <h2>Idiomes</h2>
-      <ul>
-        <li>
-          Català
-        </li>
-        <li>
-          Castellà
-        </li>
-        <li>
-          Anglès
-        </li>
-        <li>
-          Portuguès
         </li>
       </ul>
     </div>
