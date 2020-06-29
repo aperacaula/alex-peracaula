@@ -30,6 +30,23 @@ const Poesia = (props) => (
       de dominós y marfiles,<br/>
       de primeros escenarios.<br/>
     </Poema>
+    <Poema title="Espera">
+      Aburrido veo de lejos,<br />
+      con un cuarto de luna cálida,<br />
+      un globo que se eleva torpe.<br />
+      Hola, hoyo de helio alto<br />
+      que exhalas hondo y miras<br />
+      a quien te mira aburrido,<br />
+      esperando una respuesta<br />
+      de una amante de otra vida,<br />
+      te agradezco esa pregunta<br />
+      que ignorante tú me haces<br />
+      sobre cual es esa distancia<br />
+      mínima tras la cual esperar<br />
+      para volver a empezar todo:<br />
+      lo que sin querer ya ha sido<br />
+      y lo que queriendo aún será.<br />
+    </Poema>
     <Poema title="Tiaviva">
       Cuando<br />
       pienso en ti<br />
