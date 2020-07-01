@@ -3,14 +3,15 @@
 
 header {
     margin: 0 auto;
-        max-width: $centeredMaxWidth;
-        margin-bottom: 1.45rem;
+    max-width: $centeredMaxWidth;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     @include desktop {
         flex-direction: row;
         justify-content: space-between;
         align-content: center;
+        margin-bottom: 1.45rem;
     }
     .myname_desktop {
         padding: 1.45rem 1.0875rem;
