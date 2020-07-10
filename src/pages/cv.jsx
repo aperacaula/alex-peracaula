@@ -13,6 +13,9 @@ const CV = (props) => (
       <h2>Formación</h2>
       <ul>
         <li>
+          Acting in English, with Luci Lenox and Stephanie Figueira, 2020
+        </li>
+        <li>
           Formación profesional del actor en Nancy Tuñón, Barcelona, 2017-2020
         </li>
         <li>

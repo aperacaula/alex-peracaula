@@ -13,6 +13,9 @@ const CV = (props) => (
     <h2>Training</h2>
       <ul>
         <li>
+          Acting in English, with Luci Lenox and Stephanie Figueira, 2020
+        </li>
+        <li>
           Professional Acting Degree in Nancy Tuñón, Barcelona, 2017-2020
         </li>
         <li>
