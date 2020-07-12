@@ -48,7 +48,7 @@ const Videos = (props) => {
   return (
     <Layout page={'videos'}>
       <SEO
-        title="Videos Alex Peracaula"
+        title="Vídeos Alex Peracaula"
         lang="es"
         description="Vídeos de Alex Peracaula. En esta página está el videobook y otros vídeos parodia sobre 'El Ultimo Superviviente'."/>
       <h1>Vídeos</h1>
