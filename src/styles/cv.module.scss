@@ -20,6 +20,9 @@
             -webkit-font-kerning: normal;
             font-kerning: normal;
             font-size: 18px;
+            @include mobile {
+                font-size: 14px;
+            }
         }
     }
     ul {

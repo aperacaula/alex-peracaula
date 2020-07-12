@@ -13,76 +13,79 @@ const CV = (props) => (
       <h2>Formació</h2>
       <ul>
         <li>
-          Acting in English, with Luci Lenox and Stephanie Figueira, 2020
+          <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira, 2020
         </li>
         <li>
-          Formació professional de l'actor a Nancy Tuñón, Barcelona, 2017-2020
+          Formació professional de l'actor a <strong>Nancy Tuñón</strong>, Barcelona, 2017-2020
         </li>
         <li>
-          Curs del actor delante de la cámara impartido por Esteve Rovira, 2019
+          Curs del actor delante de la <strong>cámara</strong> impartit per <strong>Esteve Rovira</strong>, 2019
         </li>
         <li>
-          Curs de casting impartido por Pep Armengol, 2019
+          Curs de <strong>casting</strong> impartit per <strong>Pep Armengol</strong>, 2019
         </li>
         <li>
-          Cant, clases impartides per Martina Tresserra, 2017-2018
+          <strong>Cant</strong>, clases impartides per Martina Tresserra, 2017-2018
         </li>
         <li>
-          Curs de creació teatral amb Bàrbara Mestanza (The Mamzelles), 2018
+          Curs de <strong>creació teatral</strong> amb Bàrbara Mestanza (The Mamzelles), 2018
         </li>
         <li>
-          Modern Jazz 1, Escuela de baile Bailongu, Barcelona 2019
+          Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona 2019
         </li>
       </ul>
     <h2>Teatro</h2>
       <ul>
         <li>
-        "Almost, Maine" dirigida per Pepa Fluvià, Barcelona 2019
+        "La Pols" dirigida per <strong>Pepa Fluvià</strong>, Barcelona 2019
         </li>
         <li>
-        “A por quienes” de Raimundo Morte y creació col.lectiva, Porta 4, Barcelona 2019
+        "Almost, Maine" dirigida per <strong>Pepa Fluvià</strong>, Barcelona 2019
         </li>
         <li>
-        "Much Ado About Nothing" by William Shakespeare, The Lisbon Players at Estrella Hall, Lisboa 2017
+        “A por quienes” de Raimundo Morte y creació col.lectiva, <strong>Porta 4</strong>, Barcelona 2019
         </li>
         <li>
-        "The Stone Flower" by Elettra Sacchi, The Lisbon Players at Estrella Hall, Lisboa 2017
+        "Much Ado About Nothing" by William Shakespeare,<strong> The Lisbon Players </strong>at Estrella Hall, Lisboa 2017
         </li>
         <li>
-          "Olvida los Tambores" de Ana Diosdado, La Teatral, Barcelona 2014
+        "The Stone Flower" by Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa 2017
         </li>
         <li>
-        “La dama del alba” de Alejandro Casona, La Teatral, Barcelona 2013
+          "Olvida los Tambores" de Ana Diosdado,<strong> La Teatral</strong>, Barcelona 2014
         </li>
         <li>
-        "Casats per Amor a la Pasta" de Lluís Coquard, La Teatral, Barcelona 2012
+        “La dama del alba” de Alejandro Casona,<strong> La Teatral</strong>, Barcelona 2013
         </li>
         <li>
-        "El Bon Doctor" d'Anton Tchéjov, La Teatral, Barcelona 2010
+        "Casats per Amor a la Pasta" de Lluís Coquard,<strong> La Teatral</strong>, Barcelona 2012
+        </li>
+        <li>
+        "El Bon Doctor" d'Anton Tchéjov,<strong> La Teatral</strong>, Barcelona 2010
         </li>
       </ul>
     <h2>Cámara</h2>
       <ul>
         <li>
-          Videoclip Musical "Tengo Lágrimas", de Alan Neil, 2020
+          Videoclip Musical <strong>"Transhumanismo"</strong>, de Alan Neil, 2020
         </li>
         <li>
-          Curtmetratge "Vino a un lugar", de Luís Dickinson, 2020
+          Curtmetratge <strong>"Vino a un lugar"</strong>, de Luís Dickinson, 2020
         </li>
         <li>
-          Curtmetratge "Entre Hilos", de Judith Oliver, ECIB 2018
+          Curtmetratge <strong>"Entre Hilos"</strong>, de Judith Oliver, ECIB 2018
         </li>
         <li>
-          Curtmetratge “La última posibilidad”, de Luís Dickinson, ESCAC 2018
+          Curtmetratge <strong>"La última posibilidad"</strong>, de Luís Dickinson, ESCAC 2018
         </li>
         <li>
-          Curtmetratge "Danza", de Gabriel Floro, ECIB 2018
+          Curtmetratge <strong>"Danza"</strong>, de Gabriel Floro, ECIB 2018
         </li>
         <li>
-          Curtmetratge "Café con Sal", de Albert Picola, 2017
+          Curtmetratge <strong>"Café con Sal"</strong>, de Albert Picola, 2017
         </li>
         <li>
-          Curtmetratge "Os Genios São Loucos ou Semi-deuses", de Beactriz Guerreiro 2017
+          Curtmetratge <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, de Beactriz Guerreiro 2017
         </li>
       </ul>
       <br/>
