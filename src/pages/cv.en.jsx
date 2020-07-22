@@ -13,13 +13,16 @@ const CV = (props) => (
     <h2>Training</h2>
       <ul>
         <li>
+          Casting course with <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+        </li>
+        <li>
           <strong>Acting in English</strong>, with <strong>Luci Lenox</strong> and Stephanie Figueira, 2020
         </li>
         <li>
           Professional Acting Degree in <strong>Nancy Tuñón</strong>, Barcelona, 2017-2020
         </li>
         <li>
-          <strong>Camera</strong> Acting by <strong>Esteve Rovira</strong>, 2019  
+          <strong>Camera</strong> Acting by <strong>Esteve Rovira</strong>, 2019
         </li>
         <li>
           <strong>Casting</strong> Course by <strong>Pep Armengol</strong>, 2019

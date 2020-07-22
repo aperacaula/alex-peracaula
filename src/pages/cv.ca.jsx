@@ -13,6 +13,9 @@ const CV = (props) => (
       <h2>Formació</h2>
       <ul>
         <li>
+          Curs de casting amb <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+        </li>
+        <li>
           <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira, 2020
         </li>
         <li>
