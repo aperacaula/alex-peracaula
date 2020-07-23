@@ -93,7 +93,7 @@ const CV = (props) => (
       </ul>
       <p className={styles.languages}>Languages: <span><strong>Catalan</strong>, <strong>Español</strong> (acentos varios), <strong>Inglés</strong> (americano/británico), <strong>Portugués</strong> (Portugal/brasileño)</span></p>
       <p className={styles.languages}>Instruments: <span>Drums (basic), guitar (basic), ukelele (medium)</span></p>
-      <p className={styles.languages}>Sports: <span>Surf, soccer, tennis, ski, snowboard, swimming</span></p>
+      <p className={styles.languages}>Sports: <span>Surf, soccer, tennis, ski, snowboard, swimming, horse riding.</span></p>
     </div>
     <Link to="/">- Back to Home -</Link>
   </Layout>
