@@ -81,7 +81,7 @@ const Videos = (props) => {
         `}
       >
         <ReactPlayer
-          url="https://vimeo.com/408550057"
+          url="https://vimeo.com/442985312"
           controls={true}
           onReady={() => setVideobookLoaded(true)}
           className={styles.video_player}
