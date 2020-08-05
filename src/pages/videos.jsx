@@ -64,6 +64,9 @@ const Videos = (props) => {
         <div className={styles.tab} onClick={() => onClickTab(2)}>
           <h2 className={`${styles.tabTitle} ${selected === 2 ? styles.selected : ''}`}>Vídeos Parodia</h2>  
         </div>
+        <div className={styles.tab} onClick={() => onClickTab(3)}>
+          <h2 className={`${styles.tabTitle} ${selected === 3 ? styles.selected : ''}`}>Otros</h2>  
+        </div>
       </div>
       <div className={`${styles.loader_container} ${videobookLoaded ? styles.hide: ''} ${selected !== 0 ? styles.hide : ''}`}>
         <Loader
@@ -96,7 +99,7 @@ const Videos = (props) => {
             height={100}
             width={100}
             timeout={3000} //3 secs
-            className={videobookLoaded ? styles.hide : ''}
+            className={videoAboutLoaded ? styles.hide : ''}
           />
       </div>
       <div>
@@ -119,6 +122,19 @@ const Videos = (props) => {
           <YouTube videoId={id} opts={optsMobile} className={`${styles.mobile} ${selected !== 2 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
         </>
       ))}
+      <div className={
+        `
+          ${styles.video_container}
+          ${videoAboutLoaded ? styles.change : ''}
+          ${selected !== 3 ? styles.hide : ''}
+        `}
+      >
+        <ReactPlayer
+          url="https://vimeo.com/414823297"
+          controls={true}
+          className={styles.video_player}
+        />
+      </div>
       <Link to="/" className={styles.back}>- Volver al inicio -</Link>
     </Layout>
 )}

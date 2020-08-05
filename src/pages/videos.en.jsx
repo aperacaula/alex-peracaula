@@ -64,6 +64,9 @@ const Videos = (props) => {
         <div className={styles.tab} onClick={() => onClickTab(2)}>
           <h2 className={`${styles.tabTitle} ${selected === 2 ? styles.selected : ''}`}>Parody</h2>  
         </div>
+        <div className={styles.tab} onClick={() => onClickTab(3)}>
+          <h2 className={`${styles.tabTitle} ${selected === 3 ? styles.selected : ''}`}>Others</h2>  
+        </div>
       </div>
       <div className={`${styles.loader_container} ${videobookLoaded ? styles.hide: ''} ${selected !== 0 ? styles.hide : ''}`}>
         <Loader
@@ -119,7 +122,20 @@ const Videos = (props) => {
           <YouTube videoId={id} opts={optsMobile} className={`${styles.mobile} ${selected !== 2 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
         </>
       ))}
-      <Link to="/" className={styles.back}>- Volver al inicio -</Link>
+      <div className={
+        `
+          ${styles.video_container}
+          ${videoAboutLoaded ? styles.change : ''}
+          ${selected !== 3 ? styles.hide : ''}
+        `}
+      >
+        <ReactPlayer
+          url="https://vimeo.com/414823297"
+          controls={true}
+          className={styles.video_player}
+        />
+      </div>
+      <Link to="/en" className={styles.back}>- Back Home -</Link>
     </Layout>
 )}
 
