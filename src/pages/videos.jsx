@@ -10,6 +10,8 @@ import ReactPlayer from "react-player"
 
 const videoAbout = 'GWNKNVI95Kc'
 const videosIds = [
+  'O_4zKb0xn0o',
+  'u0b89tU0nag',
   '-1hhBmlEDSE',
   'g1olyrnNuF8',
   '5sGKQnpZLFg',
