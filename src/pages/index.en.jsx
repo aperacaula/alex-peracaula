@@ -43,7 +43,7 @@ const IndexPage = () => {
   }))
   
   return (
-  <Layout slide={true} lan={'en'}>
+  <Layout lan={'en'}>
     <SEO
       title="Actor"
       lang="en"

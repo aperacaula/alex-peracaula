@@ -42,7 +42,7 @@ const IndexPage = () => {
     originalTitle: 'alex peracaula'
   }))
   return (
-  <Layout slide={true} lan={'ca'} >
+  <Layout lan={'ca'} >
     <SEO
       title="Actor"
       lang="ca"
