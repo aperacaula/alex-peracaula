@@ -142,13 +142,12 @@ const Menu = ({ lan = 'es', slide, page }) => {
                             if (e.target.value !== 'es') {
                                 newRoute = routeDic[page]
                                     ? routeDic[page][e.target.value] : `/${e.target.value}`
-                                navigate(newRoute)
                             } else {
                                 newRoute = routeDic[page]
                                     ? routeDic[page][e.target.value] : `/`
-                                navigate(newRoute)
                             }
-                        }}
+                            navigate(newRoute)
+                            }}
                     >
                         <option value="es">
                             ES
