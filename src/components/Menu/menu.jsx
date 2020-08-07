@@ -138,9 +138,16 @@ const Menu = ({ lan = 'es', slide, page }) => {
                     <select
                         value={lan !== 'es' ? lan : 'es'}
                         onChange={(e) => {
-                            const newRoute = routeDic[page]
-                                ? routeDic[page][e.target.value] : `/${e.target.value}`
-                            navigate(newRoute)
+                            let newRoute;
+                            if (e.target.value !== 'es') {
+                                newRoute = routeDic[page]
+                                    ? routeDic[page][e.target.value] : `/${e.target.value}`
+                                navigate(newRoute)
+                            } else {
+                                newRoute = routeDic[page]
+                                    ? routeDic[page][e.target.value] : `/`
+                                navigate(newRoute)
+                            }
                         }}
                     >
                         <option value="es">
