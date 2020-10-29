@@ -130,8 +130,8 @@ const Videos = (props) => {
         `}
       >
         <>
-          <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 2 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
-          <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 2 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
         </>
         <ReactPlayer
           url="https://vimeo.com/414823297"
