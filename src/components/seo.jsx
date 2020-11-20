@@ -66,7 +66,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:video`,
-          content: `https://vimeo.com/408550057`,
+          content: `https://vimeo.com/442985312`,
         },
         {
           name: `twitter:card`,

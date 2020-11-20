@@ -10,8 +10,14 @@ const CV = (props) => (
     <SEO title="Currículum Alex Peracaula" lang="ca" description='Curriculum vitae artístic Alex Peracaula. Repàs de la formació, projectes de teatre, cinema i audiovisuals en els que he participat i idiomes que parlo.'/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
+      <h2>Dades</h2>
+      <p className={styles.languages}><span><strong>Alçada:</strong> 178cm   <strong>Cabells:</strong> Castanys (rapat)   <strong>Ulls:</strong> Verds</span></p>
+      <p className={styles.languages}><span><strong>Pantaló:</strong> 31   <strong>Camisa:</strong> 50   <strong>Sabata:</strong> 42.5</span></p>
       <h2>Formació</h2>
       <ul>
+        <li>
+          Curs de casting amb <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+        </li>
         <li>
           <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira, 2020
         </li>
@@ -91,7 +97,7 @@ const CV = (props) => (
       <br/>
       <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (diferents accents), <strong>Anglès</strong> (americà/britànic), <strong>Portuguès</strong> (Portugal/brasileny)</span></p>
       <p className={styles.languages}>Instruments: <span>Bateria (bàsic), guitarra (bàsic), ukelele (mig)</span></p>
-      <p className={styles.languages}>Esports: <span>Surf, futbol, tennis, ski, snowboard, natació</span></p>
+      <p className={styles.languages}>Esports: <span>Surf, futbol, tennis, ski, snowboard, natació, muntar a cavall.</span></p>
     </div>
     <Link to="/ca">- Torna a l'inici -</Link>
   </Layout>

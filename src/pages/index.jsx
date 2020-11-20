@@ -43,7 +43,7 @@ const IndexPage = () => {
   }))
   
   return (
-  <Layout slide={true} >
+  <Layout >
     <SEO
       title="Actor"
       lang="es"
@@ -55,15 +55,15 @@ const IndexPage = () => {
       <Loader
           type="Puff"
           color="black"
-          height={100}
-          width={100}
+          // height={100}
+          // width={100}
           timeout={3000} //3 secs
           className={videoLoaded ? styles.hide : ''}
         />
     </div>
     <div className={ `${styles.video_container} ${videoLoaded ? styles.change : ''}`}>
       <ReactPlayer
-        url="https://vimeo.com/408550057"
+        url="https://vimeo.com/442985312"
         controls={true}
         onReady={() => setVideoLoaded(true)}
         className={styles.video_player}

@@ -10,8 +10,14 @@ const CV = (props) => (
     <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo."/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
+      <h2>Datos</h2>
+      <p className={styles.languages}><span><strong>Altura:</strong> 178cm   <strong>Pelo:</strong> Castaño (rapado)   <strong>Ojos:</strong> Verde castaño</span></p>
+      <p className={styles.languages}><span><strong>Pantalón:</strong> 31   <strong>Camisa:</strong> 50   <strong>Zapato:</strong> 42.5</span></p>
       <h2>Formación</h2>
       <ul>
+        <li>
+          Curso de casting con <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+        </li>
         <li>
           <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira, 2020
         </li>
@@ -91,7 +97,7 @@ const CV = (props) => (
       <br/>
       <p className={styles.languages}>Idiomas: <span><strong>Catalán</strong>, <strong>Español</strong> (acentos varios), <strong>Inglés</strong> (americano/británico), <strong>Portugués</strong> (Portugal/brasileño)</span></p>
       <p className={styles.languages}>Instrumentos: <span>Batería (básico), guitarra (básico), ukelele (medio)</span></p>
-      <p className={styles.languages}>Deportes: <span>Surf, fútbol, tennis, ski, snowboard, natación</span></p>
+      <p className={styles.languages}>Deportes: <span>Surf, fútbol, tennis, ski, snowboard, natación, montar a caballo.</span></p>
     </div>
     <Link to="/">- Volver al inicio -</Link>
   </Layout>

@@ -42,7 +42,7 @@ const IndexPage = () => {
     originalTitle: 'alex peracaula'
   }))
   return (
-  <Layout slide={true} lan={'ca'} >
+  <Layout lan={'ca'} >
     <SEO
       title="Actor"
       lang="ca"
@@ -63,7 +63,7 @@ const IndexPage = () => {
     </div>
     <div className={ `${styles.video_container} ${videoLoaded ? styles.change : ''}`}>
       <ReactPlayer
-        url="https://vimeo.com/408550057"
+        url="https://vimeo.com/473379049"
         controls={true}
         onReady={() => setVideoLoaded(true)}
         className={styles.video_player}

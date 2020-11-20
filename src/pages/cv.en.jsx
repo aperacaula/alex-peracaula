@@ -10,8 +10,14 @@ const CV = (props) => (
     <SEO title="CV Alex Peracaula" lang="en" description="Acting CV of Alex Peracaula. Summary of the formation, dramatic education, theatre and cinema projects in which I have participated, together with the languages that I know."/>
     <h1>CV</h1>
     <div className={styles.cv_container}>
+    <h2>Appearance</h2>
+      <p className={styles.languages}><span><strong>Height:</strong> 178cm   <strong>Hair:</strong> Dark (bald)   <strong>Eyes:</strong> Dark green</span></p>
+      <p className={styles.languages}><span><strong>Trousers:</strong> 31   <strong>Shirt:</strong> 50   <strong>Shoe:</strong> 42.5</span></p>
     <h2>Training</h2>
       <ul>
+        <li>
+          Casting course with <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+        </li>
         <li>
           <strong>Acting in English</strong>, with <strong>Luci Lenox</strong> and Stephanie Figueira, 2020
         </li>
@@ -19,7 +25,7 @@ const CV = (props) => (
           Professional Acting Degree in <strong>Nancy Tuñón</strong>, Barcelona, 2017-2020
         </li>
         <li>
-          <strong>Camera</strong> Acting by <strong>Esteve Rovira</strong>, 2019  
+          <strong>Camera</strong> Acting by <strong>Esteve Rovira</strong>, 2019
         </li>
         <li>
           <strong>Casting</strong> Course by <strong>Pep Armengol</strong>, 2019
@@ -90,7 +96,7 @@ const CV = (props) => (
       </ul>
       <p className={styles.languages}>Languages: <span><strong>Catalan</strong>, <strong>Español</strong> (acentos varios), <strong>Inglés</strong> (americano/británico), <strong>Portugués</strong> (Portugal/brasileño)</span></p>
       <p className={styles.languages}>Instruments: <span>Drums (basic), guitar (basic), ukelele (medium)</span></p>
-      <p className={styles.languages}>Sports: <span>Surf, soccer, tennis, ski, snowboard, swimming</span></p>
+      <p className={styles.languages}>Sports: <span>Surf, soccer, tennis, ski, snowboard, swimming, horse riding.</span></p>
     </div>
     <Link to="/">- Back to Home -</Link>
   </Layout>

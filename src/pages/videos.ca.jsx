@@ -10,6 +10,8 @@ import ReactPlayer from "react-player"
 
 const videoAbout = 'GWNKNVI95Kc'
 const videosIds = [
+  'O_4zKb0xn0o',
+  'u0b89tU0nag',
   '-1hhBmlEDSE',
   'g1olyrnNuF8',
   '5sGKQnpZLFg',
@@ -50,7 +52,7 @@ const Videos = (props) => {
       <SEO
         title="Vídeos Alex Peracaula"
         lang="ca"
-        description="Vídeos de l' Alex Peracaula. En aquesta pàgina està el videobook, vídeos sobre mí y altres vídeos de comedia sobre 'El Ultimo Superviviente'."/>
+        description="Vídeos de l' Alex Peracaula. En aquesta pàgina està el videobook, vídeos sobre mí i altres vídeos de comedia sobre 'El Ultimo Superviviente'."/>
       <h1>Vídeos</h1>
       <div className={styles.tabs}>
         <div className={styles.tab} onClick={() => onClickTab(0)}>
@@ -61,6 +63,9 @@ const Videos = (props) => {
         </div>
         <div className={styles.tab} onClick={() => onClickTab(2)}>
           <h2 className={`${styles.tabTitle} ${selected === 2 ? styles.selected : ''}`}>Vídeos Parodia</h2>  
+        </div>
+        <div className={styles.tab} onClick={() => onClickTab(3)}>
+          <h2 className={`${styles.tabTitle} ${selected === 3 ? styles.selected : ''}`}>Altres</h2>  
         </div>
       </div>
       <div className={`${styles.loader_container} ${videobookLoaded ? styles.hide: ''} ${selected !== 0 ? styles.hide : ''}`}>
@@ -81,7 +86,7 @@ const Videos = (props) => {
         `}
       >
         <ReactPlayer
-          url="https://vimeo.com/408550057"
+          url="https://vimeo.com/473379049"
           controls={true}
           onReady={() => setVideobookLoaded(true)}
           className={styles.video_player}
@@ -117,6 +122,23 @@ const Videos = (props) => {
           <YouTube videoId={id} opts={optsMobile} className={`${styles.mobile} ${selected !== 2 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
         </>
       ))}
+      <div className={
+        `
+          ${styles.video_container}
+          ${videoAboutLoaded ? styles.change : ''}
+          ${selected !== 3 ? styles.hide : ''}
+        `}
+      >
+        <>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
+        </>
+        <ReactPlayer
+          url="https://vimeo.com/414823297"
+          controls={true}
+          className={styles.video_player}
+        />
+      </div>
       <Link to="/" className={styles.back}>- Volver al inicio -</Link>
     </Layout>
 )}
