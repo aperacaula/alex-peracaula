@@ -13,91 +13,90 @@ const CV = (props) => (
       <h2>Dades</h2>
       <p className={styles.languages}><span><strong>Alçada:</strong> 178cm   <strong>Cabells:</strong> Castanys (rapat)   <strong>Ulls:</strong> Verds</span></p>
       <p className={styles.languages}><span><strong>Pantaló:</strong> 31   <strong>Camisa:</strong> 50   <strong>Sabata:</strong> 42.5</span></p>
+      <h2>Audiovisual</h2>
+      <ul>
+        <li>
+          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Protagonista, Kinki Factory, Kinki Factory Prod.
+        </li>
+        <li>
+          2020, <strong>"Vino a un lugar"</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
+        </li>
+        <li>
+          2018, <strong>"Entre Hilos"</strong>, Curtmetratge, Protagonista, Judith Oliver, ECIB
+        </li>
+        <li>
+          2018, <strong>“La última posibilidad”</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
+        </li>
+        <li>
+          2018, <strong>"Danza"</strong>, Curtmetratge, Protagonista, Gabriel Floro, ECIB
+        </li>
+        <li>
+          2017, <strong>"Café con Sal"</strong>, Curtmetratge, Protagonista, Albert Picola, Blanquerna
+        </li>
+        <li>
+          2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Curtmetratge, Secundari, Beactriz Guerreiro, ICA Port.
+        </li>
+      </ul>
+      <h2>Teatre</h2>
+      <ul>
+        <li>
+        2020, "La Pols", Jacob, Text, <strong>Pepa Fluvià</strong>, Sala Versus, Barcelona     
+        </li>
+        <li>
+        2019, "Almost, Maine", Steve, Text, <strong>Pepa Fluvià</strong>, Estudi Nancy Tuñon, Barcelona     
+        </li>
+        <li>
+        2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
+        </li>
+        <li>
+        2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+        </li>
+        <li>
+        2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+        </li>
+        <li>
+        2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona   
+        </li>
+        <li>
+        2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona     
+        </li>
+        <li>
+        2012, "Casats per Amor a la Pasta", Joan, Text, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona  
+        </li>
+      </ul>
       <h2>Formació</h2>
       <ul>
         <li>
-          Curs de casting amb <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+          2020- present, Entrenament Actoral a <strong>Estudi Laura Jou</strong>, Barcelona
         </li>
         <li>
-          <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira, 2020
+          2020, Curs de càsting con <strong>Rosa Estévez</strong>, Actores Madrid
         </li>
         <li>
-          Formació professional de l'actor a <strong>Nancy Tuñón</strong>, Barcelona, 2017-2020
+          2020, <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira
         </li>
         <li>
-          Curs del actor delante de la <strong>cámara</strong> impartit per <strong>Esteve Rovira</strong>, 2019
+          2017-2020, <strong>Graduat Formació professional de l'actor a Nancy Tuñón</strong>, Barcelona
         </li>
         <li>
-          Curs de <strong>casting</strong> impartit per <strong>Pep Armengol</strong>, 2019
+          2019, Curs de l'actor davant la <strong>càmara</strong> impatrit per <strong>Esteve Rovira</strong>
         </li>
         <li>
-          <strong>Cant</strong>, clases impartides per Martina Tresserra, 2017-2018
+          2019, Curs de <strong>càsting</strong> impatrit per <strong>Pep Armengol</strong>
         </li>
         <li>
-          Curs de <strong>creació teatral</strong> amb Bàrbara Mestanza (The Mamzelles), 2018
+          2017-2018, <strong>Cant</strong>, clases impartidas per Martina Tresserra
         </li>
         <li>
-          Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona 2019
-        </li>
-      </ul>
-    <h2>Teatre</h2>
-      <ul>
-        <li>
-        "La Pols" dirigida per <strong>Pepa Fluvià</strong>, Barcelona 2019
+          2018, Curs de <strong>creació teatral</strong> per Bárbara Mestanza (The Mamzelles)
         </li>
         <li>
-        "Almost, Maine" dirigida per <strong>Pepa Fluvià</strong>, Barcelona 2019
-        </li>
-        <li>
-        “A por quienes” de Raimundo Morte y creació col.lectiva, <strong>Porta 4</strong>, Barcelona 2019
-        </li>
-        <li>
-        "Much Ado About Nothing" by William Shakespeare,<strong> The Lisbon Players </strong>at Estrella Hall, Lisboa 2017
-        </li>
-        <li>
-        "The Stone Flower" by Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa 2017
-        </li>
-        <li>
-          "Olvida los Tambores" de Ana Diosdado,<strong> La Teatral</strong>, Barcelona 2014
-        </li>
-        <li>
-        “La dama del alba” de Alejandro Casona,<strong> La Teatral</strong>, Barcelona 2013
-        </li>
-        <li>
-        "Casats per Amor a la Pasta" de Lluís Coquard,<strong> La Teatral</strong>, Barcelona 2012
-        </li>
-        <li>
-        "El Bon Doctor" d'Anton Tchéjov,<strong> La Teatral</strong>, Barcelona 2010
-        </li>
-      </ul>
-    <h2>Càmera</h2>
-      <ul>
-        <li>
-          Videoclip Musical <strong>"Transhumanismo"</strong>, d' Alan Neil, 2020
-        </li>
-        <li>
-          Curtmetratge <strong>"Vino a un lugar"</strong>, de Luís Dickinson, 2020
-        </li>
-        <li>
-          Curtmetratge <strong>"Entre Hilos"</strong>, de Judith Oliver, ECIB 2018
-        </li>
-        <li>
-          Curtmetratge <strong>"La última posibilidad"</strong>, de Luís Dickinson, ESCAC 2018
-        </li>
-        <li>
-          Curtmetratge <strong>"Danza"</strong>, de Gabriel Floro, ECIB 2018
-        </li>
-        <li>
-          Curtmetratge <strong>"Café con Sal"</strong>, de Albert Picola, 2017
-        </li>
-        <li>
-          Curtmetratge <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, de Beactriz Guerreiro 2017
+          2019, Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona
         </li>
       </ul>
       <br/>
-      <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (diferents accents), <strong>Anglès</strong> (americà/britànic), <strong>Portuguès</strong> (Portugal/brasileny)</span></p>
-      <p className={styles.languages}>Instruments: <span>Bateria (bàsic), guitarra (bàsic), ukelele (mig)</span></p>
-      <p className={styles.languages}>Esports: <span>Surf, futbol, tennis, ski, snowboard, natació, muntar a cavall.</span></p>
+      <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (accents variats), <strong>Anglès</strong> (nivell bilinüe), <strong>Portuguès</strong> (portugal/brasileny)</span></p>
+      <p className={styles.languages}>Habilitats: <span> Enginyer Industrial, programador web, batería (nocions), guitarra (nocions), ukelele (nocions), surf (12 anys), futbol, tennis (federat), ski, snowboard, natació, muntar a cavall, carnet conduir B1.</span></p>
     </div>
     <Link to="/ca">- Torna a l'inici -</Link>
   </Layout>
