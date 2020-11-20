@@ -34,7 +34,7 @@ const CV = (props) => (
           Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona 2019
         </li>
       </ul>
-    <h2>Teatro</h2>
+    <h2>Teatre</h2>
       <ul>
         <li>
         "La Pols" dirigida per <strong>Pepa Fluvià</strong>, Barcelona 2019
@@ -64,10 +64,10 @@ const CV = (props) => (
         "El Bon Doctor" d'Anton Tchéjov,<strong> La Teatral</strong>, Barcelona 2010
         </li>
       </ul>
-    <h2>Cámara</h2>
+    <h2>Càmera</h2>
       <ul>
         <li>
-          Videoclip Musical <strong>"Transhumanismo"</strong>, de Alan Neil, 2020
+          Videoclip Musical <strong>"Transhumanismo"</strong>, d' Alan Neil, 2020
         </li>
         <li>
           Curtmetratge <strong>"Vino a un lugar"</strong>, de Luís Dickinson, 2020
