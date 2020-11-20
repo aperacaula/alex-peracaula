@@ -10,6 +10,9 @@ const CV = (props) => (
     <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo."/>
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
+      <h2>Datos</h2>
+      <p className={styles.languages}><span><strong>Altura:</strong> 177cm, <strong>Pelo:</strong> Castaño (rapado), <strong>Ojos:</strong> Verde castaño</span></p>
+      <p className={styles.languages}><span><strong>Pantalón:</strong> 31, <strong>Camisa:</strong> 50, <strong>Zapato:</strong> 42.5</span></p>
       <h2>Formación</h2>
       <ul>
         <li>
