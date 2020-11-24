@@ -13,90 +13,91 @@ const CV = (props) => (
     <h2>Appearance</h2>
       <p className={styles.languages}><span><strong>Height:</strong> 178cm   <strong>Hair:</strong> Dark (bald)   <strong>Eyes:</strong> Dark green</span></p>
       <p className={styles.languages}><span><strong>Trousers:</strong> 31   <strong>Shirt:</strong> 50   <strong>Shoe:</strong> 42.5</span></p>
-    <h2>Training</h2>
+    <br/>    
+    <h2>Audiovisual</h2>
       <ul>
         <li>
-          Casting course with <strong>Rosa Estévez</strong>, Actores Madrid, 2020
+          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Main Character, Kinki Factory, Kinki Factory Prod.
         </li>
         <li>
-          <strong>Acting in English</strong>, with <strong>Luci Lenox</strong> and Stephanie Figueira, 2020
+          2020, <strong>"Arriving Somewhere"</strong>, Short Film, Main Character, Luís Dickinson, ESCAC
         </li>
         <li>
-          Professional Acting Degree in <strong>Nancy Tuñón</strong>, Barcelona, 2017-2020
+          2018, <strong>"Entre Hilos"</strong>, Short Film, Main Character, Judith Oliver, ECIB
         </li>
         <li>
-          <strong>Camera</strong> Acting by <strong>Esteve Rovira</strong>, 2019
+          2018, <strong>“La última posibilidad”</strong>, Short Film, Main Character, Luís Dickinson, ESCAC
         </li>
         <li>
-          <strong>Casting</strong> Course by <strong>Pep Armengol</strong>, 2019
+          2018, <strong>"Danza"</strong>, Short Film, Main Character, Gabriel Floro, ECIB
         </li>
         <li>
-          <strong>Singing</strong> classes by Martina Tresserra, 2017-2018
+          2017, <strong>"Café con Sal"</strong>, Short Film, Main Character, Albert Picola, Blanquerna
         </li>
         <li>
-          <strong>Play Creation</strong> Course by Bárbara Mestanza (The Mamzelles), 2018
-        </li>
-        <li>
-          Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona 2019
+          2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Short Film, Secundari, Beactriz Guerreiro, ICA Port.
         </li>
       </ul>
-    <h2>Theatre</h2>
+      <h2>Theatre</h2>
       <ul>
         <li>
-        "La Pols" directed by <strong>Pepa Fluvià</strong>, Barcelona 2019     
+        2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona     
         </li>
         <li>
-        "Almost, Maine" directed by <strong>Pepa Fluvià</strong>, Barcelona 2019     
+        2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong> Estudi Nancy Tuñon</strong>, Barcelona     
         </li>
         <li>
-        “A por quienes” by Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 2019 
+        2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
         </li>
         <li>
-        "Much Ado About Nothing" by William Shakespeare, <strong>The Lisbon Players</strong> at Estrella Hall, Lisboa 2017     
+        2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
         </li>
         <li>
-        "The Stone Flower" by Elettra Sacchi, <strong>The Lisbon Players</strong> at Estrella Hall, Lisboa 2017     
+        2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
         </li>
         <li>
-          "Olvida los Tambores" by Ana Diosdado,<strong> La Teatral</strong>, Barcelona 2014    
+        2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona   
         </li>
         <li>
-        “La dama del alba” by Alejandro Casona,<strong> La Teatral</strong>, Barcelona 2013      
+        2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona     
         </li>
         <li>
-        "Casats per Amor a la Pasta" by Lluís Coquard,<strong> La Teatral</strong>, Barcelona 2012      
-        </li>
-        <li>
-        "El Bon Doctor" d'Anton Tchéjov,<strong> La Teatral</strong>, Barcelona 2010    
+        2012, "Casats per Amor a la Pasta", Joan, Text, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona  
         </li>
       </ul>
-    <h2>Camera</h2>
+      <h2>Training</h2>
       <ul>
         <li>
-          Musical Clip <strong>"Transhumanismo"</strong>, of Alan Neil, 2020
+          2020- present, Actor Training at <strong>Estudi Laura Jou</strong>, Barcelona
         </li>
         <li>
-          Short Film <strong>"Vino a un lugar"</strong>, of Luís Dickinson, 2020
+          2020, Casting course with <strong>Rosa Estévez</strong>, Actores Madrid
         </li>
         <li>
-          Short Film <strong>"Entre Hilos"</strong>, of Judith Oliver, ECIB 2018
+          2020, <strong>Acting in English</strong>, with Luci Lenox and Stephanie Figueira
         </li>
         <li>
-          Short Film <strong>“La última posibilidad”</strong>, of Luís Dickinson, ESCAC 2018
+          2017-2020, <strong>Graduate in Professional Acting Degree at Nancy Tuñón</strong>, Barcelona
         </li>
         <li>
-          Short Film <strong>"Danza"</strong>, of Gabriel Floro, ECIB 2018
+          2019, Acting for <strong>camera</strong> by <strong>Esteve Rovira</strong>
         </li>
         <li>
-          Short Film <strong>"Café con Sal"</strong>, of Albert Picola, 2017
+          2019, <strong>Casting</strong> course by <strong>Pep Armengol</strong>
         </li>
         <li>
-          Short Film <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, of Beactriz Guerreiro 2017
+          2017-2018, <strong>Singing</strong>, classes by Martina Tresserra
+        </li>
+        <li>
+          2018, <strong>Theatre writing</strong> by Bárbara Mestanza (The Mamzelles)
+        </li>
+        <li>
+          2019, Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona
         </li>
       </ul>
-      <p className={styles.languages}>Languages: <span><strong>Catalan</strong>, <strong>Español</strong> (acentos varios), <strong>Inglés</strong> (americano/británico), <strong>Portugués</strong> (Portugal/brasileño)</span></p>
-      <p className={styles.languages}>Instruments: <span>Drums (basic), guitar (basic), ukelele (medium)</span></p>
-      <p className={styles.languages}>Sports: <span>Surf, soccer, tennis, ski, snowboard, swimming, horse riding.</span></p>
+      <br/>
+      <p className={styles.languages}>Languages: <span><strong>Català (native)</strong>, <strong>Spanish</strong> (native, several accents), <strong>English</strong> (bilingual level), <strong>Portuguese</strong> (Portugal/brasilian)</span></p>
+      <p className={styles.languages}>Habilities: <span> Industrial Engineering, web developer, drums (basic), guitar (basic), ukelele (basic), surf (12 years), futbol, tennis (federate), skiing, snowboard, swimming, horse riding, driving license.</span></p>
     </div>
     <Link to="/">- Back to Home -</Link>
   </Layout>
