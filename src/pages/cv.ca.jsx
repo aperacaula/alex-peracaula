@@ -13,13 +13,14 @@ const CV = (props) => (
       <h2>Dades</h2>
       <p className={styles.languages}><span><strong>Alçada:</strong> 178cm   <strong>Cabells:</strong> Castanys (rapat)   <strong>Ulls:</strong> Verds</span></p>
       <p className={styles.languages}><span><strong>Pantaló:</strong> 31   <strong>Camisa:</strong> 50   <strong>Sabata:</strong> 42.5</span></p>
+      <br/>
       <h2>Audiovisual</h2>
       <ul>
         <li>
           2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Protagonista, Kinki Factory, Kinki Factory Prod.
         </li>
         <li>
-          2020, <strong>"Vino a un lugar"</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
+          2020, <strong>"Arriving Somewhere"</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
         </li>
         <li>
           2018, <strong>"Entre Hilos"</strong>, Curtmetratge, Protagonista, Judith Oliver, ECIB
@@ -40,10 +41,10 @@ const CV = (props) => (
       <h2>Teatre</h2>
       <ul>
         <li>
-        2020, "La Pols", Jacob, Text, <strong>Pepa Fluvià</strong>, Sala Versus, Barcelona     
+        2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona     
         </li>
         <li>
-        2019, "Almost, Maine", Steve, Text, <strong>Pepa Fluvià</strong>, Estudi Nancy Tuñon, Barcelona     
+        2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong>Estudi Nancy Tuñón</strong>, Barcelona     
         </li>
         <li>
         2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
@@ -95,7 +96,7 @@ const CV = (props) => (
         </li>
       </ul>
       <br/>
-      <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (accents variats), <strong>Anglès</strong> (nivell bilinüe), <strong>Portuguès</strong> (portugal/brasileny)</span></p>
+      <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (accents variats), <strong>Anglès</strong> (nivell bilingüe), <strong>Portuguès</strong> (portugal/brasileny)</span></p>
       <p className={styles.languages}>Habilitats: <span> Enginyer Industrial, programador web, batería (nocions), guitarra (nocions), ukelele (nocions), surf (12 anys), futbol, tennis (federat), ski, snowboard, natació, muntar a cavall, carnet conduir B1.</span></p>
     </div>
     <Link to="/ca">- Torna a l'inici -</Link>
