@@ -4,6 +4,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
+
 const Footer = () => {
     return (
     <footer>
@@ -20,6 +21,9 @@ const Footer = () => {
                 </div>
                 <div className={styles.linkedin}>
                     <a href="https://www.linkedin.com/in/alex-peracaula-9b4b1b11a/" target="blank"><LinkedInIcon /></a>
+                </div>
+                <div className={styles.imdb}>
+                    <a href="https://www.imdb.com/name/nm12064554/?ref_=fn_al_nm_1" target="blank"><img src="https://m.media-amazon.com/images/G/01/IMDb/brand/guidelines/imdb/IMDb_Logo_Alt_Rectangle_Black._CB443386324_.png" alt="imdb" /></a>
                 </div>
             </div>
         </div>

@@ -20,5 +20,9 @@ footer {
     .logos_container {
         display: flex;
         align-items: center;
+        .imdb {
+            width: 35px;
+            height: 27px;
+        }
     }
 }
