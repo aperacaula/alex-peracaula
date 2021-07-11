@@ -136,8 +136,8 @@ const Videos = (props) => {
           className={styles.video_player}
         />
         <>
-          <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
-          <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
         </>
         <br/>
         <ReactPlayer
