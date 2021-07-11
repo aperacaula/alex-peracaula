@@ -10,6 +10,7 @@ import ReactPlayer from "react-player"
 
 const videoAbout = 'GWNKNVI95Kc'
 const videosIds = [
+  '6dN32uwj2e0',
   'O_4zKb0xn0o',
   'u0b89tU0nag',
   '-1hhBmlEDSE',
@@ -129,6 +130,11 @@ const Videos = (props) => {
           ${selected !== 3 ? styles.hide : ''}
         `}
       >
+        <ReactPlayer
+          url="https://vimeo.com/565845329"
+          controls={true}
+          className={styles.video_player}
+        />
         <>
           <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>
           <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} onReady={() => setVideoLoaded(true)}/>

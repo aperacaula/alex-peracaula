@@ -17,7 +17,10 @@ const CV = (props) => (
       <h2>Audiovisual</h2>
       <ul>
         <li>
-          2021, <strong>"The Weekend Thief"</strong>, Curtmetratge, Protagonista, Omar Bradosti, Producció Propia
+          2021, <strong>"Washed Away"</strong>, Curtmetratge, Secundari, Omar Bradosti
+        </li>
+        <li>
+          2021, <strong>"The Weekend Thief"</strong>, Curtmetratge, Protagonista, Omar Bradosti (link a 'Vídeos')
         </li>
         <li>
           2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Protagonista, Kinki Factory, Kinki Factory Prod.
