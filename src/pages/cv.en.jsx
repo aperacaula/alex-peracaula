@@ -17,28 +17,34 @@ const CV = (props) => (
     <h2>Audiovisual</h2>
       <ul>
         <li>
+          2021, <strong>"Honorarios, Baby"</strong>, Short Film, Lead, Alex Peracaula, Compass Studios
+        </li>
+        <li>
+          2021, <strong>"Dies d'estiu i de pluja"</strong>, Feature Film, Supporting Role, codir. Mireia Labazuy, Àlex Serra i Clàudia Vila, Prod. UPF
+        </li>
+        <li>
           2021, <strong>"Washed Away"</strong>, Short Film, Supporting Role, Omar Bradosti
         </li>
         <li>
-          2021, <strong>"The Weekend Thief"</strong>, Short Film, Main Character, Omar Bradosti (Linki in 'Videos')
+          2021, <strong>"The Weekend Thief"</strong>, Short Film, Lead, Omar Bradosti (Linki in 'Videos')
         </li>
         <li>
-          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Main Character, Kinki Factory, Kinki Factory Prod.
+          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Lead, Kinki Factory, Kinki Factory Prod.
         </li>
         <li>
-          2020, <strong>"Arriving Somewhere"</strong>, Short Film, Main Character, Luís Dickinson, ESCAC
+          2020, <strong>"Arriving Somewhere"</strong>, Short Film, Lead, Luís Dickinson, ESCAC
         </li>
         <li>
-          2018, <strong>"Entre Hilos"</strong>, Short Film, Main Character, Judith Oliver, ECIB
+          2018, <strong>"Entre Hilos"</strong>, Short Film, Lead, Judith Oliver, ECIB
         </li>
         <li>
-          2018, <strong>“La última posibilidad”</strong>, Short Film, Main Character, Luís Dickinson, ESCAC
+          2018, <strong>“La última posibilidad”</strong>, Short Film, Lead, Luís Dickinson, ESCAC
         </li>
         <li>
-          2018, <strong>"Danza"</strong>, Short Film, Main Character, Gabriel Floro, ECIB
+          2018, <strong>"Danza"</strong>, Short Film, Lead, Gabriel Floro, ECIB
         </li>
         <li>
-          2017, <strong>"Café con Sal"</strong>, Short Film, Main Character, Albert Picola, Blanquerna
+          2017, <strong>"Café con Sal"</strong>, Short Film, Lead, Albert Picola, Blanquerna
         </li>
         <li>
           2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Short Film, Secundari, Beactriz Guerreiro, ICA Port.

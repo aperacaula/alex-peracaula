@@ -17,6 +17,12 @@ const CV = (props) => (
       <h2>Audiovisual</h2>
       <ul>
         <li>
+          2021, <strong>"Honorarios, Baby"</strong>, Curtmetratge, Protagonista, Alex Peracaula, Compass Studios
+        </li>
+        <li>
+          2021, <strong>"Dies d'estiu i de pluja"</strong>, Llargmetratge, Secundari, codir. Mireia Labazuy, Àlex Serra i Clàudia Vila, Prod. UPF
+        </li>
+        <li>
           2021, <strong>"Washed Away"</strong>, Curtmetratge, Secundari, Omar Bradosti
         </li>
         <li>
