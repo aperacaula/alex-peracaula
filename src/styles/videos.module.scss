@@ -92,3 +92,31 @@
 #el_temps {
     margin-top: 30px;
 }
+
+.other_video {
+    @include mobile {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px !important;
+    }
+    p {
+        font-weight: bold;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+    .video_player {
+        @include mobile {
+            width: auto !important;
+            height: auto !important;
+        }
+    }
+    .youtubes {
+        div { 
+            iframe {
+                margin-top: 0 !important;
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}

@@ -130,20 +130,29 @@ const Videos = (props) => {
           ${selected !== 3 ? styles.hide : ''}
         `}
       >
-        <ReactPlayer
-          url="https://vimeo.com/565845329"
-          controls={true}
-          className={styles.video_player}
-        />
-        <>
+        <div className={styles.other_video}>
+          <p>The Weekend Thief - Short Film</p>
+          <ReactPlayer
+            url="https://vimeo.com/565845329"
+            controls={true}
+            className={styles.video_player}
+          />
+        </div>
+        <div className={styles.other_video}>
+          <p>Monòleg 'El temps que estiguem junts'</p>
+          <div className={styles.youtubes}>
           <YouTube videoId={'lZKvEBouQ0I'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
           <YouTube videoId={'lZKvEBouQ0I'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
-        </>
-        <ReactPlayer
-          url="https://vimeo.com/414823297"
-          controls={true}
-          className={styles.video_player}
-        />
+          </div>
+        </div>
+        <div className={styles.other_video}>
+          <p>Monòleg 'Primos'</p>          
+          <ReactPlayer
+            url="https://vimeo.com/414823297"
+            controls={true}
+            className={styles.video_player}
+          />
+        </div>
       </div>
       <Link to="/" className={styles.back}>- Volver al inicio -</Link>
     </Layout>
