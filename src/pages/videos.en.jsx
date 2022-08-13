@@ -1,12 +1,12 @@
 // Gatsby supports TypeScript natively!
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import styles from "../styles/videos.module.scss"
-import Layout from "../components/Layout/layout"
-import SEO from "../components/seo"
+import { Link } from "gatsby";
+import React, { useState } from "react";
+import Loader from "react-loader-spinner";
+import ReactPlayer from "react-player";
 import YouTube from 'react-youtube';
-import Loader from "react-loader-spinner"
-import ReactPlayer from "react-player"
+import Layout from "../components/Layout/layout";
+import SEO from "../components/seo";
+import styles from "../styles/videos.module.scss";
 
 const videoAbout = 'GWNKNVI95Kc'
 const videosIds = [

@@ -1,11 +1,10 @@
 // Gatsby supports TypeScript natively!
-import React from "react"
-import InstagramIcon from '@material-ui/icons/Instagram';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
-import Layout from "../components/Layout/layout"
-import SEO from "../components/seo"
-import styles from '../styles/contact.module.scss'
+import React from "react";
+import Layout from "../components/Layout/layout";
+import SEO from "../components/seo";
+import styles from '../styles/contact.module.scss';
 
 const Contacto = (props) => {
   return (

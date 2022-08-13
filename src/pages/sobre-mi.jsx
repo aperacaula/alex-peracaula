@@ -1,9 +1,8 @@
 // Gatsby supports TypeScript natively!
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/Layout/layout"
-import SEO from "../components/seo"
-import styles from '../styles/sobremi.module.scss'
+import { Link } from "gatsby";
+import React from "react";
+import Layout from "../components/Layout/layout";
+import SEO from "../components/seo";
 
 const SobreMi = (props) => (
   <Layout page={'sobremi'} lan="es">

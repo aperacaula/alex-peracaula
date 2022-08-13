@@ -136,6 +136,7 @@ const Videos = (props) => {
             url="https://vimeo.com/702911955"
             controls={true}
             className={styles.video_player}
+            onReady={() => setVideoLoaded(true)}
           />
         </div>
         <div className={styles.other_video}>
