@@ -54,7 +54,7 @@ const Galeria = (props) => {
   }
   return (
     <Layout page={'galeria'} lan='ca'>
-      <SEO title="Galeria" lang="ca" description="Photobook d'Alex Peracaula. Aquesta pàgina serveix com a book fotogràfic i ensenya fotografies de diferents sessions on he participat."/>
+      <SEO title="Galeria" lang="ca" description="Galeria de fotografies d'Alex Peracaula. Aquesta pàgina serveix com a book fotogràfic i ensenya fotografies de diferents sessions on he participat."/>
       <h1>Galeria d'imatges</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
