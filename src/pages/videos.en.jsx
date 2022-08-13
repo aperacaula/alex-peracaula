@@ -27,7 +27,7 @@ const Videos = (props) => {
   const [videoLoaded, setVideoLoaded] = useState(false)
   const [videobookLoaded, setVideobookLoaded] = useState(false)
   const [videoAboutLoaded, setVideoAboutLoaded] = useState(false)
-  const [selected, setSelectedTab] = useState(1)
+  const [selected, setSelectedTab] = useState(3)
   const optsDesktop = {
     height: '390',
     width: '640',
@@ -66,7 +66,7 @@ const Videos = (props) => {
           <h2 className={`${styles.tabTitle} ${selected === 2 ? styles.selected : ''}`}>Parody</h2>  
         </div>
         <div className={styles.tab} onClick={() => onClickTab(3)}>
-          <h2 className={`${styles.tabTitle} ${selected === 3 ? styles.selected : ''}`}>Others</h2>  
+          <h2 className={`${styles.tabTitle} ${selected === 3 ? styles.selected : ''}`}>Short films</h2>  
         </div>
       </div>
       <div className={`${styles.loader_container} ${videobookLoaded ? styles.hide: ''} ${selected !== 0 ? styles.hide : ''}`}>
@@ -131,12 +131,19 @@ const Videos = (props) => {
         `}
       >
         <div className={styles.other_video}>
-          <p>The Weekend Thief - Short Film</p>
+          <p>Honorarios, baby - Short Film</p>
           <ReactPlayer
-            url="https://vimeo.com/565845329"
+            url="https://vimeo.com/702911955"
             controls={true}
             className={styles.video_player}
           />
+        </div>
+        <div className={styles.other_video}>
+          <p>Lo de antes - Short (30" Notodofilfest)</p>
+          <div className={styles.youtubes}>
+          <YouTube videoId={'r7BJ9eqZwT8'} opts={optsDesktop} className={`${styles.desktop} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
+          <YouTube videoId={'r7BJ9eqZwT8'} opts={optsMobile} className={`${styles.mobile} ${selected !== 3 ? styles.hide : ''}`} id={styles.el_temps} onReady={() => setVideoLoaded(true)}/>
+          </div>
         </div>
         <div className={styles.other_video}>
           <p>Monologue 'El temps que estiguem junts'</p>
