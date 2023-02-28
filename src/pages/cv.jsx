@@ -17,7 +17,13 @@ const CV = (props) => (
       <h2>Audiovisual</h2>
       <ul>
         <li>
-          2021, <strong>"Honorarios, Baby"</strong>, Cortmetraje, Protagonista, Alex Peracaula, Compass Studios
+          2022, <strong>"Ahir a la nit"</strong>, Largmometraje, Secundario, ESCAC Films
+        </li>
+        <li>
+          2022, <strong>"Com si fos ahir"</strong>, Serie diaria, Episódico, TV3
+        </li>
+        <li>
+          2021, <strong>"Honorarios, Baby"</strong>, Cortometraje, Protagonista, Alex Peracaula, Compass Studios
         </li>
         <li>
           2021, <strong>"Dies d'estiu i de pluja"</strong>, Largometraje, Secundario, codir. Mireia Labazuy, Àlex Serra i Clàudia Vila, Prod. UPF

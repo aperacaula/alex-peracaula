@@ -17,6 +17,12 @@ const CV = (props) => (
     <h2>Audiovisual</h2>
       <ul>
         <li>
+          2022, <strong>"Ahir a la nit"</strong>, Feature Film, Supporting role, ESCAC Films
+        </li>
+        <li>
+          2022, <strong>"Com si fos ahir"</strong>, Series, Episde character, TV3
+        </li>
+        <li>
           2021, <strong>"Honorarios, Baby"</strong>, Short Film, Lead, Alex Peracaula, Compass Studios
         </li>
         <li>
