@@ -77,21 +77,10 @@ const Galeria = (props) => {
   )
   const imagesSrc = images.map(image => image.node.fluid.src)
   const sortedImages = images.sort((a, b) => {
-    // const strA = (a.node.fluid.src.split('/')[a.node.fluid.src.split('/').length - 1].split('.')[0])
-    // const strB = (b.node.fluid.src.split('/')[b.node.fluid.src.split('/').length - 1].split('.')[0])
-    // if (strA > strB) return 1
-    // if (strA < strB) return -1
-    const reA = /[^a-zA-Z]/g;
-    const reN = /[^0-9]/g;
-    let aA = a.replace(reA, "");
-    let bA = b.replace(reA, "");
-    if (aA === bA) {
-      let aN = parseInt(a.replace(reN, ""), 10);
-      let bN = parseInt(b.replace(reN, ""), 10);
-      return aN === bN ? 0 : aN > bN ? 1 : -1;
-    } else {
-      return aA > bA ? 1 : -1;
-    }
+    const strA = (a.node.fluid.src.split('/')[a.node.fluid.src.split('/').length - 1].split('.')[0])
+    const strB = (b.node.fluid.src.split('/')[b.node.fluid.src.split('/').length - 1].split('.')[0])
+    if (strA > strB) return 1
+    if (strA < strB) return -1
     return 0
   })
 
