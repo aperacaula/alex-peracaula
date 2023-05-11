@@ -3,19 +3,19 @@ module.exports = {
     title: `Alex Peracaula Ruiz`,
     description: `Web del actor Alex Peracaula, donde comparte todo el material (fotos, vídeos, currículum, poemas...)`,
     author: `@aperacaula`,
-    siteUrl: 'https://www.alexperacaula.com',
+    siteUrl: "https://www.alexperacaula.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://www.alexperacaula.com',
-        sitemap: 'https://www.alexperacaula.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: "https://www.alexperacaula.com",
+        sitemap: "https://www.alexperacaula.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -26,6 +26,12 @@ module.exports = {
         head: true,
         // Defers execution of google analytics script after page load
         defer: false,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "G-LMR54QQ9CL",
       },
     },
     {
@@ -50,13 +56,13 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-i18n',
+      resolve: "gatsby-plugin-i18n",
       options: {
-        langKeyDefault: 'es',
+        langKeyDefault: "es",
         useLangKeyLayout: false,
         prefixDefault: false,
-      }
-    }
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
