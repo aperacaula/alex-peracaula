@@ -29,12 +29,6 @@ module.exports = {
     //   },
     // },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "G-LMR54QQ9CL",
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
