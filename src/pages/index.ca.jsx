@@ -63,7 +63,7 @@ const IndexPage = () => {
     </div>
     <div className={ `${styles.video_container} ${videoLoaded ? styles.change : ''}`}>
       <ReactPlayer
-        url="https://vimeo.com/473379049"
+        url="https://www.youtube.com/watch?v=Q3BvlOO_nIA&ab_channel=TheHouseTALENTS"
         controls={true}
         onReady={() => setVideoLoaded(true)}
         className={styles.video_player}
