@@ -9,8 +9,8 @@ const Menu = ({ lan = 'es', slide, page }) => {
     let galeriaUrl = '/galeria';
     let sobreMi = 'Sobre mí';
     let sobreMiUrl = '/sobre-mi';
-    let poesia = 'Poesía';
-    let poesiaUrl = '/poesia';
+    // let poesia = 'Poesía';
+    // let poesiaUrl = '/poesia';
     let cv = 'Currículum';
     let cvUrl = '/cv';
     let contacto = 'Contacto';
@@ -39,11 +39,11 @@ const Menu = ({ lan = 'es', slide, page }) => {
             ca: '/ca/sobre-mi',
             en: '/en/about-me'
         },
-        poesia: {
-            es: '/poesia',
-            ca: '/ca/poesia',
-            en: '/en/poetry'
-        },
+        // poesia: {
+        //     es: '/poesia',
+        //     ca: '/ca/poesia',
+        //     en: '/en/poetry'
+        // },
         cv: {
             es: '/cv',
             ca: '/ca/cv',
@@ -57,8 +57,8 @@ const Menu = ({ lan = 'es', slide, page }) => {
             galeriaUrl = '/en/photos';
             sobreMi = 'About me';
             sobreMiUrl = '/en/about-me';
-            poesia = 'Poetry';
-            poesiaUrl = '/en/poetry';
+            // poesia = 'Poetry';
+            // poesiaUrl = '/en/poetry';
             cv = 'CV';
             cvUrl = '/en/cv';
             contacto = 'Contact';
@@ -71,8 +71,8 @@ const Menu = ({ lan = 'es', slide, page }) => {
             galeriaUrl = '/ca/galeria';
             sobreMi = 'Sobre mi';
             sobreMiUrl = '/ca/sobre-mi';
-            poesia = 'Poesia';
-            poesiaUrl = '/ca/poesia';
+            // poesia = 'Poesia';
+            // poesiaUrl = '/ca/poesia';
             cv = 'Currículum';
             cvUrl = '/ca/cv';
             contacto = 'Contacte';
@@ -110,14 +110,14 @@ const Menu = ({ lan = 'es', slide, page }) => {
                         }
                     </div>
                 </Link>
-                <Link to={poesiaUrl}>
+                {/* <Link to={poesiaUrl}>
                     <div className={styles.menu_box}>
                         {page === 'poesia'
                             ? <span><strong>{poesia}</strong></span>
                             : <span>{poesia}</span>
                         }
                     </div>
-                </Link>
+                </Link> */}
                 <Link to={cvUrl}>
                     <div className={styles.menu_box}>
                         {page === 'cv'
@@ -181,11 +181,11 @@ const Menu = ({ lan = 'es', slide, page }) => {
                     <span>{sobreMi}</span>
                 </div>
                 </Link>
-                <Link to={poesiaUrl}>
+                {/* <Link to={poesiaUrl}>
                 <div className={styles.menu_box}>
                     <span>{poesia}</span>
                 </div>
-                </Link>
+                </Link> */}
                 <Link to={cvUrl}>
                 <div className={styles.menu_box}>
                 <span>{cv}</span>
