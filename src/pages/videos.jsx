@@ -87,7 +87,7 @@ const Videos = (props) => {
         `}
       >
         <ReactPlayer
-          url="https://vimeo.com/442985312"
+          url="https://www.youtube.com/watch?v=Q3BvlOO_nIA&ab_channel=TheHouseTALENTS"
           controls={true}
           onReady={() => setVideobookLoaded(true)}
           className={styles.video_player}

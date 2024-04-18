@@ -14,7 +14,7 @@ const Footer = () => {
             Àlex Peracaula Ruiz
             <div className={styles.logos_container}>
                 <div className={styles.mail}>
-                    <a href="mailto:aperacaularuiz@gmail.com" target="blank"><MailOutlineIcon /></a>
+                    <a href="mailto:david@thehousetalents.com" target="blank"><MailOutlineIcon /></a>
                 </div>
                 <div className={styles.instagram}>
                     <a href="https://www.instagram.com/aperacaula" target="blank"><InstagramIcon /></a>

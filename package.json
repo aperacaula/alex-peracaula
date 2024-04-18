@@ -11,7 +11,6 @@
     "gatsby": "^2.21.37",
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-google-analytics": "^2.3.4",
-    "gatsby-plugin-google-tagmanager": "^5.9.0",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^2.4.5",
     "gatsby-plugin-offline": "^3.2.3",
@@ -24,7 +23,6 @@
     "gatsby-transformer-sharp": "^2.5.2",
     "jpeg-js": "^0.4.1",
     "lodash": "^4.17.19",
-    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -35,6 +33,7 @@
     "react-player": "^2.1.0",
     "react-reveal": "^1.2.2",
     "react-youtube": "^7.11.2",
+    "sass": "^1.69.5",
     "swiper": "^6.5.1"
   },
   "devDependencies": {
@@ -45,7 +44,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
