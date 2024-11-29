@@ -7,17 +7,17 @@ import SEO from "../components/seo"
 
 const CV = (props) => (
   <Layout page={'cv'}>
-    <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo."/>
+    <SEO title="Currículum Alex Peracaula" lang="es" description="Currículum artístico de Alex Peracaula. Repaso de la formación, proyectos de teatro, cine y audiovisual en los que he participado así como los idiomas que hablo." />
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
       <h2>Datos</h2>
       <p className={styles.languages}><span><strong>Altura:</strong> 178cm   <strong>Pelo:</strong> Castaño (rapado)   <strong>Ojos:</strong> Verde castaño</span></p>
       <p className={styles.languages}><span><strong>Pantalón:</strong> 31   <strong>Camisa:</strong> 50   <strong>Zapato:</strong> 42.5</span></p>
-      <br/>      
+      <br />
       <h2>Audiovisual</h2>
       <ul>
         <li>
-          2024, <strong>"4 Estrellas"</strong>, Serie diària, Episódico, RTVE
+          2024, <strong>"4 Estrellas"</strong>, Serie diaria, Episódico, RTVE
         </li>
         <li>
           2024, <strong>"KIMCHI”</strong>, Cortometraje, Secundario, Héctor Jenz, Producción Pròpia
@@ -62,34 +62,49 @@ const CV = (props) => (
       <h2>Teatro</h2>
       <ul>
         <li>
-        2020, "La Pols", Jacob, Texto, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona     
+          2024, “Dos en la Arena”, Alex, Texto, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
         </li>
         <li>
-        2019, "Almost, Maine", Steve, Texto, Pepa Fluvià, <strong>Estudi Nancy Tuñón</strong>, Barcelona     
+          2020, "La Pols", Jacob, Texto, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona
         </li>
         <li>
-        2019, “A por quienes”, Oscar, Texto, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
+          2019, "Almost, Maine", Steve, Texto, Pepa Fluvià, <strong>Estudi Nancy Tuñón</strong>, Barcelona
         </li>
         <li>
-        2017, "Much Ado About Nothing", Claudio, Texto, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2019, “A por quienes”, Oscar, Texto, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona
         </li>
         <li>
-        2017, "The Stone Flower", Danila, Texto, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2017, "Much Ado About Nothing", Claudio, Texto, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2014, "Olvida los Tambores", Pepe, Texto, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona   
+          2017, "The Stone Flower", Danila, Texto, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2013, “La dama del alba”, Mozo, Texto, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona     
+          2014, "Olvida los Tambores", Pepe, Texto, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona
         </li>
         <li>
-        2012, "Casats per Amor a la Pasta", Joan, Texto, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona  
+          2013, “La dama del alba”, Mozo, Texto, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
+        </li>
+        <li>
+          2012, "Casats per Amor a la Pasta", Joan, Texto, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
         </li>
       </ul>
-      <h2>Formación</h2>
+      <h2>Formación/Entrenamiento</h2>
       <ul>
         <li>
-          2020- presente, Entrenamiento Actoral en <strong>Laura Jou</strong>, Barcelona
+          2024, Taller de creación con <strong>Nao Albet</strong>, Madrid
+        </li>
+        <li>
+          2024, Entrenamiento con <strong>Juan López-Tagle</strong>, Madrid
+        </li>
+        <li>
+          2024, Entrenamiento con <strong>Raquel Pérez</strong>, Madrid
+        </li>
+        <li>
+          2022-2023, Procedimiento Daulte con <strong>Marc Ribera</strong>, Barcelona/Madrid
+        </li>
+        <li>
+          2020-2023, Entrenamiento Actoral en <strong>Laura Jou</strong>, Barcelona
         </li>
         <li>
           2020, Curso de casting con <strong>Rosa Estévez</strong>, Actores Madrid
@@ -107,16 +122,10 @@ const CV = (props) => (
           2019, Curso de <strong>casting</strong> impartido por <strong>Pep Armengol</strong>
         </li>
         <li>
-          2017-2018, <strong>Canto</strong>, clases impartidas por Martina Tresserra
-        </li>
-        <li>
           2018, Curso de <strong>creación teatral</strong> por Bárbara Mestanza (The Mamzelles)
         </li>
-        <li>
-          2019, Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona
-        </li>
       </ul>
-      <br/>
+      <br />
       <p className={styles.languages}>Idiomas: <span><strong>Catalán</strong>, <strong>Español</strong> (acentos varios), <strong>Inglés</strong> (nivel bilingüe, americano/británico), <strong>Portugués</strong> (Portugal/brasileño)</span></p>
       <p className={styles.languages}>Habilidades: <span> Ingeniero Industrial, programador web, Batería (básico), guitarra (básico), ukelele (medio), Surf (12 años), fútbol, tennis (federado), ski, snowboard, natación, montar a caballo, carnet conducir B1.</span></p>
     </div>

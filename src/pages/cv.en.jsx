@@ -89,7 +89,19 @@ const CV = (props) => (
       <h2>Training</h2>
       <ul>
         <li>
-          2020- present, Actor Training at <strong>Estudi Laura Jou</strong>, Barcelona
+          2024, Creation workshop with <strong>Nao Albet</strong>, Madrid
+        </li>
+        <li>
+          2024, Training with <strong>Juan López-Tagle</strong>, Madrid
+        </li>
+        <li>
+          2024, Training with <strong>Raquel Pérez</strong>, Madrid
+        </li>
+        <li>
+          2022-2023, Procedimiento Daulte with <strong>Marc Ribera</strong>, Barcelona/Madrid
+        </li>
+        <li>
+          2020-2023, Training Actoral en <strong>Laura Jou</strong>, Barcelona
         </li>
         <li>
           2020, Casting course with <strong>Rosa Estévez</strong>, Actores Madrid

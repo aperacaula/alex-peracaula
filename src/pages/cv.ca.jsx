@@ -86,10 +86,22 @@ const CV = (props) => (
           2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
         </li>
       </ul>
-      <h2>Formació</h2>
+      <h2>Formació/Entrenament</h2>
       <ul>
         <li>
-          2020- present, Entrenament Actoral a <strong>Estudi Laura Jou</strong>, Barcelona
+          2024, Taller de creació amb <strong>Nao Albet</strong>, Madrid
+        </li>
+        <li>
+          2024, Entrenament amb <strong>Juan López-Tagle</strong>, Madrid
+        </li>
+        <li>
+          2024, Entrenament amb <strong>Raquel Pérez</strong>, Madrid
+        </li>
+        <li>
+          2022-2023, Procediment Daulte amb <strong>Marc Ribera</strong>, Barcelona/Madrid
+        </li>
+        <li>
+          2020-2023, Entrenament Actoral a <strong>Estudi Laura Jou</strong>, Barcelona
         </li>
         <li>
           2020, Curs de càsting con <strong>Rosa Estévez</strong>, Actores Madrid
