@@ -7,15 +7,21 @@ import SEO from "../components/seo"
 
 const CV = (props) => (
   <Layout page={'cv'} lan={'ca'}>
-    <SEO title="Currículum Alex Peracaula" lang="ca" description='Curriculum vitae artístic Alex Peracaula. Repàs de la formació, projectes de teatre, cinema i audiovisuals en els que he participat i idiomes que parlo.'/>
+    <SEO title="Currículum Alex Peracaula" lang="ca" description='Curriculum vitae artístic Alex Peracaula. Repàs de la formació, projectes de teatre, cinema i audiovisuals en els que he participat i idiomes que parlo.' />
     <h1>Currículum</h1>
     <div className={styles.cv_container}>
       <h2>Dades</h2>
       <p className={styles.languages}><span><strong>Alçada:</strong> 178cm   <strong>Cabells:</strong> Castanys (rapat)   <strong>Ulls:</strong> Verds</span></p>
       <p className={styles.languages}><span><strong>Pantaló:</strong> 31   <strong>Camisa:</strong> 50   <strong>Sabata:</strong> 42.5</span></p>
-      <br/>
+      <br />
       <h2>Audiovisual</h2>
       <ul>
+        <li>
+          2024, <strong>"4 Estrellas"</strong>, Sèrie diària, Episòdic, RTVE
+        </li>
+        <li>
+          2024, <strong>"KIMCHI”</strong>, Curtmetratge, Secundari, Héctor Jenz, Producció Pròpia
+        </li>
         <li>
           2022, <strong>"Ahir a la nit"</strong>, Llargmetratge, Secundari, ESCAC Films
         </li>
@@ -52,35 +58,32 @@ const CV = (props) => (
         <li>
           2017, <strong>"Café con Sal"</strong>, Curtmetratge, Protagonista, Albert Picola, Blanquerna
         </li>
-        <li>
-          2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Curtmetratge, Secundari, Beactriz Guerreiro, ICA Port.
-        </li>
       </ul>
       <h2>Teatre</h2>
       <ul>
         <li>
-        2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona     
+          2024, “Dos en la Arena”, Alex, Text, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
         </li>
         <li>
-        2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong>Estudi Nancy Tuñón</strong>, Barcelona     
+          2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona
         </li>
         <li>
-        2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
+          2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong>Estudi Nancy Tuñón</strong>, Barcelona
         </li>
         <li>
-        2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona
         </li>
         <li>
-        2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona   
+          2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona     
+          2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona
         </li>
         <li>
-        2012, "Casats per Amor a la Pasta", Joan, Text, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona  
+          2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
         </li>
       </ul>
       <h2>Formació</h2>
@@ -113,7 +116,7 @@ const CV = (props) => (
           2019, Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona
         </li>
       </ul>
-      <br/>
+      <br />
       <p className={styles.languages}>Idiomes: <span><strong>Català</strong>, <strong>Espanyol</strong> (accents variats), <strong>Anglès</strong> (nivell bilingüe), <strong>Portuguès</strong> (portugal/brasileny)</span></p>
       <p className={styles.languages}>Habilitats: <span> Enginyer Industrial, programador web, batería (nocions), guitarra (nocions), ukelele (nocions), surf (12 anys), futbol, tennis (federat), ski, snowboard, natació, muntar a cavall, carnet conduir B1.</span></p>
     </div>

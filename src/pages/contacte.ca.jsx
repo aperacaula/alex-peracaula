@@ -10,23 +10,23 @@ import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 const Contacto = (props) => {
   return (
     <Layout page={'contacto'} lan={'ca'}>
-      <SEO title="Contacte Alex Peracaula" lang="ca" description="Pàgina de contacte Alex Peracaula"/>
+      <SEO title="Contacte Alex Peracaula" lang="ca" description="Pàgina de contacte Alex Peracaula" />
       <h1>Contacta'm</h1>
       <div className={styles.contact_content}>
-        <div style={{textAlign: 'center'}}>Representant: <a href="https://www.thehousetalents.com" target="blank">The House Talents</a></div>
+        <div style={{ textAlign: 'center' }}>Actualment sense representant</div>
         <div className={styles.contact_section}>
-          <div styles={styles.image_container}>  
+          <div styles={styles.image_container}>
             <PermContactCalendarIcon />
           </div>
-          <a href="https://www.instagram.com/thehouse.talents/" target="blank">@thehouse.talents</a>
+          <a href="https://www.instagram.com/aperacaula/" target="blank">@aperacaula</a>
         </div>
         <div className={styles.contact_section}>
-          <div styles={styles.image_container}>  
+          <div styles={styles.image_container}>
             <MailOutlineIcon />
           </div>
-          <a href="mailto:david@thehousetalents.com" target="blank">david@thehousetalents.com</a>
+          <a href="mailto:aperacaularuiz@gmail.com" target="blank">aperacaularuiz@gmail.com</a>
         </div>
-        <br/>
+        <br />
       </div>
     </Layout>
   )

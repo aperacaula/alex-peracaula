@@ -9,23 +9,23 @@ import styles from '../styles/contact.module.scss'
 const Contacto = (props) => {
   return (
     <Layout page={'contacto'} lan={'en'}>
-      <SEO title="Contact Alex Peracaula" lang="en" description="Contact page of Alex Peracaula"/>
+      <SEO title="Contact Alex Peracaula" lang="en" description="Contact page of Alex Peracaula" />
       <h1>Contact me</h1>
       <div className={styles.contact_content}>
-      <div style={{textAlign: 'center'}}>Agent: <a href="https://www.thehousetalents.com" target="blank">The House Talents</a></div>
+        <div style={{ textAlign: 'center' }}>Currently without an agent</div>
         <div className={styles.contact_section}>
-          <div styles={styles.image_container}>  
+          <div styles={styles.image_container}>
             <PermContactCalendarIcon />
           </div>
-          <a href="https://www.instagram.com/thehouse.talents/" target="blank">@thehouse.talents</a>
+          <a href="https://www.instagram.com/aperacaula/" target="blank">@aperacaula</a>
         </div>
         <div className={styles.contact_section}>
-          <div styles={styles.image_container}>  
+          <div styles={styles.image_container}>
             <MailOutlineIcon />
           </div>
-          <a href="mailto:david@thehousetalents.com" target="blank">david@thehousetalents.com</a>
+          <a href="mailto:aperacaularuiz@gmail.com" target="blank">aperacaularuiz@gmail.com</a>
         </div>
-        <br/>
+        <br />
       </div>
     </Layout>
   )

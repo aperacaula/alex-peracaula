@@ -7,15 +7,21 @@ import SEO from "../components/seo"
 
 const CV = (props) => (
   <Layout page={'cv'} lan={'en'}>
-    <SEO title="CV Alex Peracaula" lang="en" description="Acting CV of Alex Peracaula. Summary of the formation, dramatic education, theatre and cinema projects in which I have participated, together with the languages that I know."/>
+    <SEO title="CV Alex Peracaula" lang="en" description="Acting CV of Alex Peracaula. Summary of the formation, dramatic education, theatre and cinema projects in which I have participated, together with the languages that I know." />
     <h1>CV</h1>
     <div className={styles.cv_container}>
-    <h2>Appearance</h2>
+      <h2>Appearance</h2>
       <p className={styles.languages}><span><strong>Height:</strong> 178cm   <strong>Hair:</strong> Dark (bald)   <strong>Eyes:</strong> Dark green</span></p>
       <p className={styles.languages}><span><strong>Trousers:</strong> 31   <strong>Shirt:</strong> 50   <strong>Shoe:</strong> 42.5</span></p>
-    <br/>    
-    <h2>Audiovisual</h2>
+      <br />
+      <h2>Audiovisual</h2>
       <ul>
+        <li>
+          2024, <strong>"4 Estrellas"</strong>, Series, Supporting role, RTVE
+        </li>
+        <li>
+          2024, <strong>"KIMCHI”</strong>, Short Film, Supporting role, Héctor Jenz
+        </li>
         <li>
           2022, <strong>"Ahir a la nit"</strong>, Feature Film, Supporting role, ESCAC Films
         </li>
@@ -52,35 +58,32 @@ const CV = (props) => (
         <li>
           2017, <strong>"Café con Sal"</strong>, Short Film, Lead, Albert Picola, Blanquerna
         </li>
-        <li>
-          2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Short Film, Secundari, Beactriz Guerreiro, ICA Port.
-        </li>
       </ul>
       <h2>Theatre</h2>
       <ul>
         <li>
-        2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona     
+          2024, “Dos en la Arena”, Alex, Texto, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
         </li>
         <li>
-        2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong> Estudi Nancy Tuñon</strong>, Barcelona     
+          2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona
         </li>
         <li>
-        2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona 
+          2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong> Estudi Nancy Tuñon</strong>, Barcelona
         </li>
         <li>
-        2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona
         </li>
         <li>
-        2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa     
+          2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona   
+          2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-        2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona     
+          2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona
         </li>
         <li>
-        2012, "Casats per Amor a la Pasta", Joan, Text, Magda Caballero,<strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona  
+          2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
         </li>
       </ul>
       <h2>Training</h2>
@@ -113,7 +116,7 @@ const CV = (props) => (
           2019, Modern Jazz, Escuela de <strong>baile</strong> Bailongu, Barcelona
         </li>
       </ul>
-      <br/>
+      <br />
       <p className={styles.languages}>Languages: <span><strong>Català (native)</strong>, <strong>Spanish</strong> (native, several accents), <strong>English</strong> (bilingual level), <strong>Portuguese</strong> (Portugal/brasilian)</span></p>
       <p className={styles.languages}>Habilities: <span> Industrial Engineering, web developer, drums (basic), guitar (basic), ukelele (basic), surf (12 years), futbol, tennis (federate), skiing, snowboard, swimming, horse riding, driving license.</span></p>
     </div>

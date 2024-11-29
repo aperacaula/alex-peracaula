@@ -17,6 +17,12 @@ const CV = (props) => (
       <h2>Audiovisual</h2>
       <ul>
         <li>
+          2024, <strong>"4 Estrellas"</strong>, Serie diària, Episódico, RTVE
+        </li>
+        <li>
+          2024, <strong>"KIMCHI”</strong>, Cortometraje, Secundario, Héctor Jenz, Producción Pròpia
+        </li>
+        <li>
           2022, <strong>"Ahir a la nit"</strong>, Largmometraje, Secundario, ESCAC Films
         </li>
         <li>
@@ -51,9 +57,6 @@ const CV = (props) => (
         </li>
         <li>
           2017, <strong>"Café con Sal"</strong>, Cortometraje, Protagonista, Albert Picola, Blanquerna
-        </li>
-        <li>
-          2017, <strong>"Os Genios São Loucos ou Semi-deuses"</strong>, Cortometraje, Secundario, Beactriz Guerreiro, ICA Port.
         </li>
       </ul>
       <h2>Teatro</h2>
