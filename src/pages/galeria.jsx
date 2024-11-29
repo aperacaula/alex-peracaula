@@ -77,12 +77,25 @@ const Galeria = (props) => {
   )
   const imagesSrc = images.map(image => image.node.fluid.src)
   const sortedImages = images.sort((a, b) => {
-    const strA = (a.node.fluid.src.split('/')[a.node.fluid.src.split('/').length - 1].split('.')[0])
-    const strB = (b.node.fluid.src.split('/')[b.node.fluid.src.split('/').length - 1].split('.')[0])
-    if (strA > strB) return 1
-    if (strA < strB) return -1
-    return 0
-  })
+    const getBaseName = (src) => src.split('/').pop().split('.')[0];
+    const normalizeName = (name) => name.startsWith('0') ? name.slice(1) : name;
+
+    const strA = getBaseName(a.node.fluid.src);
+    const strB = getBaseName(b.node.fluid.src);
+
+    const normA = normalizeName(strA);
+    const normB = normalizeName(strB);
+
+    // Compare normalized names first
+    if (normA > normB) return 1;
+    if (normA < normB) return -1;
+
+    // If normalized names are equal, prioritize names starting with '0'
+    if (strA.startsWith('0') && !strB.startsWith('0')) return -1;
+    if (!strA.startsWith('0') && strB.startsWith('0')) return 1;
+
+    return 0; // They are truly equal
+  });
 
   const onClose = () => {
     setVisible(false)
@@ -94,7 +107,7 @@ const Galeria = (props) => {
   }
   return (
     <Layout page={'galeria'}>
-      <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula. Esta página sirve a modo de book fotográfico en el que comparto fotos de diferentes sesiones en las que he participado."/>
+      <SEO title="Galería" lang="es" description="Galería de fotografías de Alex Peracaula. Esta página sirve a modo de book fotográfico en el que comparto fotos de diferentes sesiones en las que he participado." />
       <h1>Galería de fotografías</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
@@ -119,8 +132,9 @@ const Galeria = (props) => {
         <img className={styles.img} alt="" src={clickedUrl} />
       </Dialog>
       <Link to="/">- Volver al inicio -</Link>
-      
+
     </Layout>
-)}
+  )
+}
 
 export default Galeria

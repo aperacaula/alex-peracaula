@@ -37,12 +37,25 @@ const Galeria = (props) => {
   )
   // const imagesSrc = images.map(image => image.node.fluid.src)
   const sortedImages = images.sort((a, b) => {
-    const strA = Number(a.node.fluid.src.split('/')[a.node.fluid.src.split('/').length - 1].split('.')[0])
-    const strB = Number(b.node.fluid.src.split('/')[b.node.fluid.src.split('/').length - 1].split('.')[0])
-    if (strA > strB) return 1
-    if (strA < strB) return -1
-    return 0
-  })
+    const getBaseName = (src) => src.split('/').pop().split('.')[0];
+    const normalizeName = (name) => name.startsWith('0') ? name.slice(1) : name;
+
+    const strA = getBaseName(a.node.fluid.src);
+    const strB = getBaseName(b.node.fluid.src);
+
+    const normA = normalizeName(strA);
+    const normB = normalizeName(strB);
+
+    // Compare normalized names first
+    if (normA > normB) return 1;
+    if (normA < normB) return -1;
+
+    // If normalized names are equal, prioritize names starting with '0'
+    if (strA.startsWith('0') && !strB.startsWith('0')) return -1;
+    if (!strA.startsWith('0') && strB.startsWith('0')) return 1;
+
+    return 0; // They are truly equal
+  });
 
   const onClose = () => {
     setVisible(false)
@@ -54,7 +67,7 @@ const Galeria = (props) => {
   }
   return (
     <Layout page={'galeria'} lan='ca'>
-      <SEO title="Galeria" lang="ca" description="Galeria de fotografies d'Alex Peracaula. Aquesta pàgina serveix com a book fotogràfic i ensenya fotografies de diferents sessions on he participat."/>
+      <SEO title="Galeria" lang="ca" description="Galeria de fotografies d'Alex Peracaula. Aquesta pàgina serveix com a book fotogràfic i ensenya fotografies de diferents sessions on he participat." />
       <h1>Galeria d'imatges</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
@@ -79,8 +92,9 @@ const Galeria = (props) => {
         <img className={styles.img} alt="" src={clickedUrl} />
       </Dialog>
       <Link to="/ca">- Tornar a l'inici -</Link>
-      
+
     </Layout>
-)}
+  )
+}
 
 export default Galeria
