@@ -62,11 +62,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://i.ibb.co/JyCmTjp/alex-book-1-min.jpg`,
+          content: `https://i.ibb.co/fDJ64bL/DSCF1120.jpg`,
         },
         {
           property: `og:video`,
-          content: `https://www.youtube.com/watch?v=Q3BvlOO_nIA&ab_channel=TheHouseTALENTS`,
+          content: `https://vimeo.com/manage/videos/442985312`,
         },
         {
           name: `twitter:card`,
