@@ -12,18 +12,18 @@ const Contacto = (props) => {
       <SEO title="Contact Alex Peracaula" lang="en" description="Contact page of Alex Peracaula" />
       <h1>Contact me</h1>
       <div className={styles.contact_content}>
-        <div style={{ textAlign: 'center' }}>Currently without an agent</div>
-        <div className={styles.contact_section}>
+        <div style={{ textAlign: 'center' }}>Agent: <a href="https://www.alsiragarciamaroto.net/" style={{ color: "blue" }}>Alsira Garcia-Maroto</a></div>
+        {/* <div className={styles.contact_section}>
           <div styles={styles.image_container}>
             <PermContactCalendarIcon />
           </div>
           <a href="https://www.instagram.com/aperacaula/" target="blank">@aperacaula</a>
-        </div>
+        </div> */}
         <div className={styles.contact_section}>
           <div styles={styles.image_container}>
             <MailOutlineIcon />
           </div>
-          <a href="mailto:aperacaularuiz@gmail.com" target="blank">aperacaularuiz@gmail.com</a>
+          <a href="mailto:alsiragarciamaroto@gmail.com" target="blank">alsiragarciamaroto@gmail.com</a>
         </div>
         <br />
       </div>
