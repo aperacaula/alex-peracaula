@@ -17,6 +17,12 @@ const CV = (props) => (
       <h2>Audiovisual</h2>
       <ul>
         <li>
+          2025, <strong>"The Last Sunrise"</strong>, feature film, Carlos, dir. Carlson Young, Amazon MGM
+        </li>
+        <li>
+          2025, <strong>"Nuda Propiedad"</strong>, Feature film, Supporting role, dir. Alberto Utrera, Garajonay Prod.
+        </li>
+        <li>
           2024, <strong>"4 Estrellas"</strong>, Series, Supporting role, RTVE
         </li>
         <li>
