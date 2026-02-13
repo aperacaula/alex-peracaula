@@ -47,9 +47,6 @@ const CV = (props) => (
           2021, <strong>"The Weekend Thief"</strong>, Short Film, Lead, Omar Bradosti (Linki in 'Videos')
         </li>
         <li>
-          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Lead, Kinki Factory, Kinki Factory Prod.
-        </li>
-        <li>
           2020, <strong>"Arriving Somewhere"</strong>, Short Film, Lead, Luís Dickinson, ESCAC
         </li>
         <li>
@@ -59,37 +56,37 @@ const CV = (props) => (
           2018, <strong>“La última posibilidad”</strong>, Short Film, Lead, Luís Dickinson, ESCAC
         </li>
         <li>
-          2018, <strong>"Danza"</strong>, Short Film, Lead, Gabriel Floro, ECIB
-        </li>
-        <li>
           2017, <strong>"Café con Sal"</strong>, Short Film, Lead, Albert Picola, Blanquerna
         </li>
       </ul>
       <h2>Theatre</h2>
       <ul>
         <li>
-          2024, “Dos en la Arena”, Alex, Texto, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
+          2025-2026, <strong>"Todos menos Jack"</strong>, Alex, Dramatic Play, dir. Alex Peracaula, <strong>Teatro Lara</strong>, Madrid
         </li>
         <li>
-          2020, "La Pols", Jacob, Text, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona
+          2024, “Dos en la Arena”, Alex, Dramatic Play, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
         </li>
         <li>
-          2019, "Almost, Maine", Steve, Text, Pepa Fluvià, <strong> Estudi Nancy Tuñon</strong>, Barcelona
+          2020, "La Pols", Jacob, Dramatic Play, Pepa Fluvià, <strong>Sala Versus</strong>, Barcelona
         </li>
         <li>
-          2019, “A por quienes”, Oscar, Text, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona
+          2019, "Almost, Maine", Steve, Dramatic Play, Pepa Fluvià, <strong> Estudi Nancy Tuñon</strong>, Barcelona
         </li>
         <li>
-          2017, "Much Ado About Nothing", Claudio, Text, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
+          2019, “A por quienes”, Oscar, Dramatic Play, Raimundo Morte y creación colectiva, <strong>Porta 4</strong>, Barcelona
         </li>
         <li>
-          2017, "The Stone Flower", Danila, Text, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
+          2017, "Much Ado About Nothing", Claudio, Dramatic Play, Rafaela Lacerda, <strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-          2014, "Olvida los Tambores", Pepe, Text, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona
+          2017, "The Stone Flower", Danila, Dramatic Play, Elettra Sacchi,<strong> The Lisbon Players</strong> at Estrella Hall, Lisboa
         </li>
         <li>
-          2013, “La dama del alba”, Mozo, Text, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
+          2014, "Olvida los Tambores", Pepe, Dramatic Play, <strong> La Teatral </strong> Caixa Fòrum y APC, Barcelona
+        </li>
+        <li>
+          2013, “La dama del alba”, Mozo, Dramatic Play, Magda Caballero, <strong> La Teatral </strong>, Caixa Fòrum y APC, Barcelona
         </li>
       </ul>
       <h2>Training</h2>

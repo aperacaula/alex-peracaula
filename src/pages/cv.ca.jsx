@@ -47,9 +47,6 @@ const CV = (props) => (
           2021, <strong>"The Weekend Thief"</strong>, Curtmetratge, Protagonista, Omar Bradosti (link a 'Vídeos')
         </li>
         <li>
-          2020, <strong>"Transhumanismo"</strong> de Alan Neil, Videoclip Musical, Protagonista, Kinki Factory, Kinki Factory Prod.
-        </li>
-        <li>
           2020, <strong>"Arriving Somewhere"</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
         </li>
         <li>
@@ -59,14 +56,14 @@ const CV = (props) => (
           2018, <strong>“La última posibilidad”</strong>, Curtmetratge, Protagonista, Luís Dickinson, ESCAC
         </li>
         <li>
-          2018, <strong>"Danza"</strong>, Curtmetratge, Protagonista, Gabriel Floro, ECIB
-        </li>
-        <li>
           2017, <strong>"Café con Sal"</strong>, Curtmetratge, Protagonista, Albert Picola, Blanquerna
         </li>
       </ul>
       <h2>Teatre</h2>
       <ul>
+        <li>
+          2025-2026, <strong>"Todos menos Jack"</strong>, Alex, Text, dir. Alex Peracaula, <strong>Teatro Lara</strong>, Madrid
+        </li>
         <li>
           2024, “Dos en la Arena”, Alex, Text, Alex Peracaula, <strong>La Escalera de Jacob</strong>, Madrid
         </li>
